@@ -146,6 +146,19 @@
                 });
 
                 $("#tbodyTable").append(trPerHari);
+
+                // Waktu istirahat
+                let trIstirahat = document.createElement("tr");
+                let tdIstirahat = document.createElement("td");
+                let istirahatText = document.createElement("strong");
+                istirahatText.textContent = "ISTIRAHAT";
+                tdIstirahat.colSpan = 6;
+                tdIstirahat.append(istirahatText);
+                trIstirahat.append(tdIstirahat);
+                if (jamPelajaran == 3 || jamPelajaran == 5) {
+                  $("#tbodyTable").append(trIstirahat);
+                }
+
                 $("#jadwal").show();
               }
             }
