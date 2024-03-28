@@ -11,7 +11,7 @@ filePath = sys.argv[2] if len(sys.argv) >= 2 else "data jadwal guru.xlsx"
 wb = load_workbook(filePath)
 
 # JSON result path
-data_dir = "data"
+data_dir = "docs"
 kelas_result_dir = os.path.join(data_dir, "kelas")
 guru_result_dir = os.path.join(data_dir, "guru")
 lokasi_guru_result_dir = os.path.join(data_dir, "lokasi_guru")
