@@ -44,6 +44,7 @@
 
     <div id="jadwal" style="display: none">
       <div class="container">
+        <h2 id="kelasName" class="text-center mb-4"></h2>
         <div class="table-responsive">
           <table id="jadwalTable" class="table text-center">
             <thead class="table-dark">
@@ -97,31 +98,40 @@
       </script>
       <script>
         function fetchKelasInfo() {
-          $.getJSON("kelas/info.json", function (data, textStatus, jqXHR) {
-            data.forEach((element) => {
-              let optgroup = document.createElement("optgroup");
-              optgroup.label = "Kelas " + element["jenjang"];
+          $.ajax({
+            url: "kelas/info.json",
+            type: "GET",
+            dataType: "json",
+            // Run in synchronous to avoid early loaded Javascript
+            async: false,
+            success: function (data, textStatus, jqXHR) {
+              data.forEach((element) => {
+                let optgroup = document.createElement("optgroup");
+                optgroup.label = "Kelas " + element["jenjang"];
 
-              element["kelas"].forEach((kelas) => {
-                let option = document.createElement("option");
-                option.value = kelas;
-                option.textContent = kelas;
+                element["kelas"].forEach((kelas) => {
+                  let option = document.createElement("option");
+                  option.value = kelas;
+                  option.textContent = kelas;
 
-                optgroup.append(option);
+                  optgroup.append(option);
+                });
+
+                $("#pilihKelas").append(optgroup);
               });
 
-              $("#pilihKelas").append(optgroup);
-            });
-
-            $("#pilihKelas").prop("disabled", false);
+              $("#pilihKelas").prop("disabled", false);
+            },
           });
         }
 
         function getJadwal(kelas) {
           if (!kelas) return;
-          $.get(
-            `kelas/${kelas}.json`,
-            function (dataPerHari, textStatus, jqXHR) {
+          $.ajax({
+            url: `kelas/${kelas}.json`,
+            type: "GET",
+            dataType: "json",
+            success: function (dataPerHari, textStatus, jqXHR) {
               $("#tbodyTable").empty();
 
               let maxJamPelajaran = getMaxLengthInArrays(dataPerHari);
@@ -159,20 +169,28 @@
                   $("#tbodyTable").append(trIstirahat);
                 }
 
+                $("#kelasName").text("Kelas " + kelas);
                 $("#jadwal").show();
               }
-            }
-          );
+            },
+          });
         }
       </script>
       <script>
+        $("#pilihKelas").on("change", function (event) {
+          getJadwal(this.value);
+        });
+
         $(document).ready(() => {
           // Ambil daftar kelas
           fetchKelasInfo();
-        });
 
-        $("#pilihKelas").on("change", function (event) {
-          getJadwal(this.value);
+          // Support URL parameter
+          const urlParams = new URLSearchParams(window.location.search);
+          if (urlParams.get("kelas")) {
+            $("#pilihKelas").val(urlParams.get("kelas"));
+            $("#pilihKelas").change();
+          }
         });
       </script>
     </footer>
