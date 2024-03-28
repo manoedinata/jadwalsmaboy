@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 29,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 34,
+            "nama": "Andi Suwignyo D, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-MIPA-1",
+            "hari": 1,
+            "jam": 8
+        }
+    ],
+    [
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 9,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 9,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 40,
+            "nama": "Drs. Dwi Handoko",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 40,
+            "nama": "Drs. Dwi Handoko",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 36,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 36,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 29,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 29,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-MIPA-1",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 40,
+            "nama": "Drs. Dwi Handoko",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 40,
+            "nama": "Drs. Dwi Handoko",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 9,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 9,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 17,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 17,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 4,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "PPKn",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 4,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "PPKn",
+            "kelas": "XII-MIPA-1",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 36,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 36,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 73,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 73,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-MIPA-1",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 34,
+            "nama": "Andi Suwignyo D, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 34,
+            "nama": "Andi Suwignyo D, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 14,
+            "nama": "Suyono, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 14,
+            "nama": "Suyono, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 20,
+            "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 17,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 17,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-MIPA-1",
+            "hari": 5,
+            "jam": 9
+        }
+    ]
+]

@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 66,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 66,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 1,
+            "jam": 8
+        }
+    ],
+    [
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 38,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "PKWU",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 25,
+            "nama": "Aris Defiana,S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 25,
+            "nama": "Aris Defiana,S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 25,
+            "nama": "Aris Defiana,S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 50,
+            "nama": "Wara Pamungkas  M., S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 50,
+            "nama": "Wara Pamungkas  M., S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-7",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 10,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 10,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 65,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 65,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 65,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 44,
+            "nama": "Vitta Amelia, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-7",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 65,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 65,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 34,
+            "nama": "Andi Suwignyo D, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 34,
+            "nama": "Andi Suwignyo D, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 66,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 66,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-7",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 71,
+            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 25,
+            "nama": "Aris Defiana,S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 25,
+            "nama": "Aris Defiana,S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 66,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-7",
+            "hari": 5,
+            "jam": 9
+        }
+    ]
+]

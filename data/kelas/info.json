@@ -1,0 +1,58 @@
+[
+    {
+        "jenjang": "X",
+        "kelas": [
+            "X-1",
+            "X-2",
+            "X-3",
+            "X-4",
+            "X-5",
+            "X-6",
+            "X-7",
+            "X-8",
+            "X-9",
+            "X-10",
+            "X-11",
+            "X-12"
+        ]
+    },
+    {
+        "jenjang": "XI",
+        "kelas": [
+            "XI-1",
+            "XI-2",
+            "XI-3",
+            "XI-4",
+            "XI-5",
+            "XI-6",
+            "XI-7",
+            "XI-8",
+            "XI-9",
+            "XI-10",
+            "XI-11",
+            "XI-12"
+        ]
+    },
+    {
+        "jenjang": "XII-MIPA",
+        "kelas": [
+            "XII-MIPA-1",
+            "XII-MIPA-2",
+            "XII-MIPA-3",
+            "XII-MIPA-4",
+            "XII-MIPA-5",
+            "XII-MIPA-6",
+            "XII-MIPA-7",
+            "XII-MIPA-8"
+        ]
+    },
+    {
+        "jenjang": "XII-IPS",
+        "kelas": [
+            "XII-IPS-1",
+            "XII-IPS-2",
+            "XII-IPS-3",
+            "XII-IPS-4"
+        ]
+    }
+]

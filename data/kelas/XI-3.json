@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-3",
+            "hari": 1,
+            "jam": 8
+        }
+    ],
+    [
+        {
+            "index": 7,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 7,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 37,
+            "nama": "Hapsari Palupi, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 37,
+            "nama": "Hapsari Palupi, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-3",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 23,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 23,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 37,
+            "nama": "Hapsari Palupi, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 37,
+            "nama": "Hapsari Palupi, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 43,
+            "nama": "Septikasari, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 7,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 7,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 7,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-3",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 23,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 23,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 23,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 12,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 12,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 12,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 67,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 62,
+            "nama": "Adib Fawaid, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 62,
+            "nama": "Adib Fawaid, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-3",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 62,
+            "nama": "Adib Fawaid, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 62,
+            "nama": "Adib Fawaid, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 62,
+            "nama": "Adib Fawaid, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 12,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 12,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-3",
+            "hari": 5,
+            "jam": 9
+        }
+    ]
+]

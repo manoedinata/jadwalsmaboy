@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "index": 48,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 48,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 5,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 5,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-IPS-4",
+            "hari": 1,
+            "jam": 8
+        }
+    ],
+    [
+        {
+            "index": 73,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 73,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 63,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 63,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 48,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 48,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 19,
+            "nama": "M. Abdul Wakid, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 19,
+            "nama": "M. Abdul Wakid, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 14,
+            "nama": "Suyono, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 14,
+            "nama": "Suyono, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-IPS-4",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 74,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd. ",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 74,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd. ",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 5,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 5,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XII-IPS-4",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 74,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd. ",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 74,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd. ",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 46,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XII-IPS-4",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 22,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 20,
+            "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 39,
+            "nama": "Sri Winarni,S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-IPS-4",
+            "hari": 5,
+            "jam": 9
+        }
+    ]
+]

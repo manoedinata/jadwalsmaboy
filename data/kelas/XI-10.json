@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 27,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 69,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 69,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 8
+        }
+    ],
+    [
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 16,
+            "nama": "Dewi Widyawati, S.Sos., M.M.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 24,
+            "nama": "Tria Bina Tama, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 49,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 49,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 42,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 56,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 31,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 50,
+            "nama": "Wara Pamungkas  M., S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 50,
+            "nama": "Wara Pamungkas  M., S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 51,
+            "nama": "Tya Rizki, S.Pd.",
+            "keterangan": "PPKn",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 49,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 49,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 55,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 10,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 10,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 69,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 69,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 60,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 6,
+            "nama": "Dra. Dwi Martiani",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 58,
+            "nama": "Yuliana Dwi Purwatika, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 49,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 9
+        }
+    ]
+]

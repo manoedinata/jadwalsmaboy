@@ -1,0 +1,226 @@
+[
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-1",
+        "hari": 2,
+        "jam": 7
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-1",
+        "hari": 2,
+        "jam": 8
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-1",
+        "hari": 4,
+        "jam": 3
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-1",
+        "hari": 4,
+        "jam": 4
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-2",
+        "hari": 3,
+        "jam": 3
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-2",
+        "hari": 3,
+        "jam": 4
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-2",
+        "hari": 4,
+        "jam": 1
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-2",
+        "hari": 4,
+        "jam": 2
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-3",
+        "hari": 3,
+        "jam": 9
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-3",
+        "hari": 3,
+        "jam": 10
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-3",
+        "hari": 4,
+        "jam": 7
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-3",
+        "hari": 4,
+        "jam": 8
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-4",
+        "hari": 2,
+        "jam": 9
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-4",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-4",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-4",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-5",
+        "hari": 2,
+        "jam": 1
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-5",
+        "hari": 2,
+        "jam": 2
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-5",
+        "hari": 5,
+        "jam": 8
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-5",
+        "hari": 5,
+        "jam": 9
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-6",
+        "hari": 1,
+        "jam": 7
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-6",
+        "hari": 1,
+        "jam": 8
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-6",
+        "hari": 5,
+        "jam": 6
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-6",
+        "hari": 5,
+        "jam": 7
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-7",
+        "hari": 4,
+        "jam": 9
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-7",
+        "hari": 4,
+        "jam": 10
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-7",
+        "hari": 5,
+        "jam": 3
+    },
+    {
+        "index": 36,
+        "nama": "Istiyah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-MIPA-7",
+        "hari": 5,
+        "jam": 4
+    }
+]

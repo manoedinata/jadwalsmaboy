@@ -1,0 +1,42 @@
+[
+    {
+        "index": 20,
+        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-MIPA-1",
+        "hari": 5,
+        "jam": 5
+    },
+    {
+        "index": 20,
+        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-MIPA-2",
+        "hari": 5,
+        "jam": 9
+    },
+    {
+        "index": 20,
+        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-MIPA-3",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 20,
+        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-IPS-3",
+        "hari": 4,
+        "jam": 10
+    },
+    {
+        "index": 20,
+        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-IPS-4",
+        "hari": 5,
+        "jam": 7
+    }
+]

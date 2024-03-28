@@ -1,0 +1,266 @@
+[
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-1",
+        "hari": 2,
+        "jam": 9
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-1",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-2",
+        "hari": 3,
+        "jam": 9
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-2",
+        "hari": 3,
+        "jam": 10
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-3",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-3",
+        "hari": 1,
+        "jam": 2
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-4",
+        "hari": 5,
+        "jam": 8
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-4",
+        "hari": 5,
+        "jam": 9
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-5",
+        "hari": 1,
+        "jam": 3
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-5",
+        "hari": 1,
+        "jam": 4
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-6",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-6",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-7",
+        "hari": 2,
+        "jam": 7
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-7",
+        "hari": 2,
+        "jam": 8
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-8",
+        "hari": 2,
+        "jam": 1
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-8",
+        "hari": 2,
+        "jam": 2
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-9",
+        "hari": 2,
+        "jam": 3
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-9",
+        "hari": 2,
+        "jam": 4
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-10",
+        "hari": 3,
+        "jam": 3
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-10",
+        "hari": 3,
+        "jam": 4
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-11",
+        "hari": 4,
+        "jam": 3
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-11",
+        "hari": 4,
+        "jam": 4
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-12",
+        "hari": 5,
+        "jam": 6
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XI-12",
+        "hari": 5,
+        "jam": 7
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-2",
+        "hari": 4,
+        "jam": 1
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-2",
+        "hari": 4,
+        "jam": 2
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-2",
+        "hari": 5,
+        "jam": 5
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-3",
+        "hari": 4,
+        "jam": 7
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-3",
+        "hari": 4,
+        "jam": 8
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-3",
+        "hari": 4,
+        "jam": 9
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-4",
+        "hari": 1,
+        "jam": 8
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-4",
+        "hari": 3,
+        "jam": 5
+    },
+    {
+        "index": 56,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP",
+        "kelas": "XII-IPS-4",
+        "hari": 3,
+        "jam": 6
+    }
+]
