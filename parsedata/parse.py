@@ -4,8 +4,8 @@ import shutil
 from openpyxl import load_workbook
 import json
 
-from helpers import jumlahkanList
-from helpers import getDetailGuru
+from .helpers import jumlahkanList
+from .helpers import getDetailGuru
 
 filePath = sys.argv[2] if len(sys.argv) >= 2 else "data jadwal guru.xlsx"
 wb = load_workbook(filePath)
@@ -138,17 +138,18 @@ def getAllGuru():
 
 #####
 
-# Get all guru
-getAllGuru()
+def startParse():
+    # Get all guru
+    getAllGuru()
 
-# Parse kelas 10
-parseJadwal("X", rentang_kelas_x)
+    # Parse kelas 10
+    parseJadwal("X", rentang_kelas_x)
 
-# Parse kelas 11
-parseJadwal("XI", rentang_kelas_xi)
+    # Parse kelas 11
+    parseJadwal("XI", rentang_kelas_xi)
 
-# Parse kelas 12 - MIPA
-parseJadwal("XII-MIPA", rentang_kelas_xii_mipa)
+    # Parse kelas 12 - MIPA
+    parseJadwal("XII-MIPA", rentang_kelas_xii_mipa)
 
-# Parse kelas 13 - IPS
-parseJadwal("XII-IPS", rentang_kelas_xii_ips)
+    # Parse kelas 13 - IPS
+    parseJadwal("XII-IPS", rentang_kelas_xii_ips)
