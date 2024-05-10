@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AvertaStd;
+  src: url(fonts/AvertaStd-Regular.ttf);
+}
+
+.font-averta {
+  font-family: AvertaStd, ui-sans-serif, system-ui, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
