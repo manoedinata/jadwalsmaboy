@@ -150,6 +150,8 @@ def parseUjian(nama_kelas: str, kolom_kelas: int):
     for row in ujianWs.iter_rows(
             min_row=2
         ):
+        if not row[kolom_kelas].value:
+            continue
         if row[0].value:
             total_jadwal.append({
                 "tanggal": row[0].value,
