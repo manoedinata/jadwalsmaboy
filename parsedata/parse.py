@@ -15,6 +15,7 @@ data_dir = "docs"
 kelas_result_dir = os.path.join(data_dir, "kelas")
 guru_result_dir = os.path.join(data_dir, "guru")
 lokasi_guru_result_dir = os.path.join(data_dir, "lokasi_guru")
+ujian_result_dir = os.path.join(data_dir, "ujian")
 
 if os.path.isdir(kelas_result_dir):
     shutil.rmtree(kelas_result_dir)
@@ -25,10 +26,12 @@ if os.path.isdir(lokasi_guru_result_dir):
 os.makedirs(kelas_result_dir, exist_ok=True)
 os.makedirs(guru_result_dir, exist_ok=True)
 os.makedirs(lokasi_guru_result_dir, exist_ok=True)
+os.makedirs(ujian_result_dir, exist_ok=True)
 
 # Worksheet
 jadwalWs = wb["master"]
 guruWs = wb["dftr nama gr"]
+ujianWs = wb["pat_2024"]
 
 ## Jumlah jam pelajaran / hari
 jam_pelajaran = [8, 10, 10, 10, 9]
@@ -46,6 +49,11 @@ rentang_kelas_xi = [kelas_x + (len(rentang_kelas_x) * 1) for kelas_x in rentang_
 rentang_kelas_xii = [kelas_x + (len(rentang_kelas_x) * 2) for kelas_x in rentang_kelas_x]
 rentang_kelas_xii_mipa = rentang_kelas_xii[:8]
 rentang_kelas_xii_ips = rentang_kelas_xii[8:]
+
+# Lokasi kolom ujian
+kolom_ujian_x = 2 # C
+kolom_ujian_xi_mipa = 3 # D
+kolom_ujian_xi_ips = 4 # E
 
 # Main function: Parse xlsx
 def parseJadwal(awalan_kelas: str, rentang_kelas: list):
@@ -136,6 +144,23 @@ def getAllGuru():
     with open(guru_result, "w") as file:
         json.dump(guru_list, file, indent=4)
 
+# Main function #2: Parse jadwal ujian
+def parseUjian(nama_kelas: str, kolom_kelas: int):
+    total_jadwal = []
+    for row in ujianWs.iter_rows(
+            min_row=2
+        ):
+        if row[0].value:
+            total_jadwal.append({
+                "tanggal": row[0].value,
+                "jadwal": [[row[1].value.split("-"), row[kolom_kelas].value]]
+            })
+        else:
+            total_jadwal[-1]["jadwal"].append([row[1].value.split("-"), row[kolom_kelas].value])
+
+    ujian_result = os.path.join(ujian_result_dir, f"{nama_kelas}.json")
+    with open(ujian_result, "w") as file:
+        json.dump(total_jadwal, file, indent=4)
 #####
 
 def startParse():
@@ -153,3 +178,10 @@ def startParse():
 
     # Parse kelas 13 - IPS
     parseJadwal("XII-IPS", rentang_kelas_xii_ips)
+
+    # Parse Ujian - kelas 10
+    parseUjian("X", kolom_ujian_x)
+    # Parse Ujian - kelas 11 MIPA
+    parseUjian("XI-MIPA", kolom_ujian_xi_mipa)
+    # Parse Ujian - kelas 11 IPS
+    parseUjian("XI-IPS", kolom_ujian_xi_ips)
