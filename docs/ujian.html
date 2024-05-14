@@ -38,10 +38,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="./index.html"
+            <a class="nav-link" aria-current="page" href="./index.html"
               >Pelajaran</a
             >
-            <a class="nav-link" href="./ujian.html">Ujian PAS 2024</a>
+            <a class="nav-link active" href="./ujian.html">Ujian PAS 2024</a>
           </div>
         </div>
       </div>
@@ -49,21 +49,21 @@
 
     <div id="hero">
       <div class="px-4 py-5 mt-5 mb-4 text-center">
-        <h1 class="display-4 fw-bold">Jadwal Pelajaran</h1>
+        <h1 class="display-4 fw-bold">Jadwal PAS 2024</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
-            Lihat jadwal pelajaran seluruh kelas di
-            <strong>SMAN 1 Boyolangu</strong>, beserta informasi tambahan
-            seperti daftar dan lokasi mengajar guru.
+            Lihat jadwal Penilaian Akhir Semester (PAS) untuk kelas X dan XI.
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <select
               id="pilihKelas"
               class="form-select form-select-lg"
               aria-label="Pilih kelas"
-              disabled
             >
               <option value="" selected>Pilih kelas...</option>
+              <option value="X">Kelas X</option>
+              <option value="XI-MIPA">Kelas XI-MIPA (XI-1 sampai XI-8)</option>
+              <option value="XI-IPS">Kelas XI-IPS (XI-9 sampai XI-12)</option>
             </select>
           </div>
         </div>
@@ -77,15 +77,15 @@
           <table id="jadwalTable" class="table text-center">
             <thead class="table-dark">
               <tr>
+                <th scope="col">Tanggal</th>
                 <th scope="col">Jam Ke-</th>
-                <th scope="col">Senin</th>
-                <th scope="col">Selasa</th>
-                <th scope="col">Rabu</th>
-                <th scope="col">Kamis</th>
-                <th scope="col">Jumat</th>
+                <th scope="col">Mata Pelajaran</th>
               </tr>
             </thead>
-            <tbody id="tbodyTable">
+            <tbody
+              id="tbodyTable"
+              style="vertical-align: middle; text-align: center"
+            >
               <tr>
                 <td colspan="6">Mengambil data...</td>
               </tr>
@@ -125,81 +125,46 @@
         }
       </script>
       <script>
-        function fetchKelasInfo() {
-          $.ajax({
-            url: "kelas/info.json",
-            type: "GET",
-            dataType: "json",
-            // Run in synchronous to avoid early loaded Javascript
-            async: false,
-            success: function (data, textStatus, jqXHR) {
-              data.forEach((element) => {
-                let optgroup = document.createElement("optgroup");
-                optgroup.label = "Kelas " + element["jenjang"];
-
-                element["kelas"].forEach((kelas) => {
-                  let option = document.createElement("option");
-                  option.value = kelas;
-                  option.textContent = kelas;
-
-                  optgroup.append(option);
-                });
-
-                $("#pilihKelas").append(optgroup);
-              });
-
-              $("#pilihKelas").prop("disabled", false);
-            },
-          });
-        }
-
         function getJadwal(kelas) {
           if (!kelas) return;
           $.ajax({
-            url: `kelas/${kelas}.json`,
+            url: `ujian/${kelas}.json`,
             type: "GET",
             dataType: "json",
             success: function (dataPerHari, textStatus, jqXHR) {
               $("#tbodyTable").empty();
 
-              let maxJamPelajaran = getMaxLengthInArrays(dataPerHari);
-              for (let jamPelajaran of Array(maxJamPelajaran).keys()) {
-                let trPerHari = document.createElement("tr");
+              dataPerHari.forEach((data) => {
+                // Ambil panjang jadwal
+                lengthJadwal = data["jadwal"].length;
 
-                // Jam ke-
-                let tdJamPelajaran = document.createElement("td");
-                tdJamPelajaran.innerText = jamPelajaran + 1;
-                trPerHari.append(tdJamPelajaran);
+                data["jadwal"].forEach((jadwal, index) => {
+                  // Bangun elemen
+                  let trPerHari = document.createElement("tr");
 
-                dataPerHari.forEach((element, index) => {
-                  let pelajaran = element[jamPelajaran];
-
-                  let td = document.createElement("td");
-                  if (pelajaran) {
-                    td.innerText = pelajaran["keterangan"];
-                  } else {
-                    td.innerText = "-";
+                  if (index == 0) {
+                    // 1. Tanggal
+                    let tdTanggal = document.createElement("td");
+                    tdTanggal.rowSpan = lengthJadwal;
+                    tdTanggal.textContent = data["tanggal"];
+                    trPerHari.appendChild(tdTanggal);
                   }
-                  trPerHari.append(td);
+
+                  // 2.1. Jam ke-
+                  let tdJam = document.createElement("td");
+                  tdJam.textContent = jadwal[0].join("-");
+                  trPerHari.appendChild(tdJam);
+
+                  // 2.2. Mapel
+                  let tdJadwal = document.createElement("td");
+                  tdJadwal.textContent = jadwal[1];
+                  trPerHari.appendChild(tdJadwal);
+                  $("#tbodyTable").append(trPerHari);
                 });
+              });
 
-                $("#tbodyTable").append(trPerHari);
-
-                // Waktu istirahat
-                let trIstirahat = document.createElement("tr");
-                let tdIstirahat = document.createElement("td");
-                let istirahatText = document.createElement("strong");
-                istirahatText.textContent = "ISTIRAHAT";
-                tdIstirahat.colSpan = 6;
-                tdIstirahat.append(istirahatText);
-                trIstirahat.append(tdIstirahat);
-                if (jamPelajaran == 3 || jamPelajaran == 5) {
-                  $("#tbodyTable").append(trIstirahat);
-                }
-
-                $("#kelasName").text("Kelas " + kelas);
-                $("#jadwal").show();
-              }
+              $("#kelasName").text("Jadwal Kelas " + kelas);
+              $("#jadwal").show();
             },
           });
         }
@@ -210,9 +175,6 @@
         });
 
         $(document).ready(() => {
-          // Ambil daftar kelas
-          fetchKelasInfo();
-
           // Support URL parameter
           const urlParams = new URLSearchParams(window.location.search);
           if (urlParams.get("kelas")) {
