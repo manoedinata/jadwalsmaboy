@@ -204,6 +204,11 @@
                   let td = document.createElement("td");
                   if (pelajaran) {
                     td.innerText = pelajaran["keterangan"];
+                    $(td).popover({
+                      title: pelajaran["keterangan"],
+                      content: pelajaran["nama"],
+                      trigger: "hover focus",
+                    });
                   } else {
                     td.innerText = "-";
                   }
@@ -247,6 +252,14 @@
             $("#pilihKelas").change();
           }
         });
+      </script>
+      <script>
+        const popoverTriggerList = document.querySelectorAll(
+          '[data-bs-toggle="popover"]'
+        );
+        const popoverList = [...popoverTriggerList].map(
+          (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+        );
       </script>
     </footer>
   </body>
