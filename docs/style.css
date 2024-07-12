@@ -1,3 +1,11 @@
+* {
+  --dark-body: #182433;
+}
+
+.bg-blue-dark {
+  background-color: var(--dark-body) !important;
+}
+
 @font-face {
   font-family: AvertaStd;
   src: url(fonts/AvertaStd-Regular.ttf);
