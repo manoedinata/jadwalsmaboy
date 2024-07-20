@@ -1,372 +1,412 @@
 [
     {
         "index": 1,
-        "nama": "Muji Rahayu, S.Pd., M.Pd.",
+        "nama": "Subagas, S.Pd.",
         "keterangan": "Kepala Sekolah"
     },
     {
         "index": 2,
-        "nama": "Endang Sri Indiyah, S.Pd.",
-        "keterangan": "Biologi"
-    },
-    {
-        "index": 3,
-        "nama": "Drs. Mohamad Hasan",
-        "keterangan": "Bahasa Inggris"
-    },
-    {
-        "index": 4,
         "nama": "Drs. Endro Santoso, M.M.",
         "keterangan": "PPKn"
     },
     {
-        "index": 5,
+        "index": 3,
         "nama": "Sri Hartati, S.Pd.",
         "keterangan": "Ekonomi"
     },
     {
-        "index": 6,
+        "index": 4,
         "nama": "Dra. Dwi Martiani",
         "keterangan": "Bahasa Inggris"
     },
     {
-        "index": 7,
+        "index": 5,
         "nama": "Hj. Heni Sulistiawati, S.Pd.",
         "keterangan": "Biologi"
     },
     {
-        "index": 8,
+        "index": 6,
         "nama": "Agus Winoto, M.Pd.",
         "keterangan": "Fisika"
     },
     {
-        "index": 9,
+        "index": 7,
         "nama": "Andie Syahroel Saidi, S.Pd.",
         "keterangan": "Fisika"
     },
     {
-        "index": 10,
+        "index": 8,
         "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
         "keterangan": "Bahasa Inggris"
     },
     {
-        "index": 11,
+        "index": 9,
         "nama": "Siti Fadilah, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 12,
+        "index": 10,
         "nama": "Dra. Pramugawati, M.M.Pd.",
         "keterangan": "Kimia"
     },
     {
-        "index": 13,
+        "index": 11,
         "nama": "Mu'arif, S.Pd., M.M.Pd.",
         "keterangan": "Bahasa Inggris"
     },
     {
-        "index": 14,
-        "nama": "Suyono, S.Pd.",
-        "keterangan": "Seni Budaya"
-    },
-    {
-        "index": 15,
+        "index": 12,
         "nama": "Heri Sutrisno, S.Sn., M.M.",
         "keterangan": "Seni Budaya"
     },
     {
-        "index": 16,
+        "index": 13,
         "nama": "Dewi Widyawati, S.Sos., M.M.",
         "keterangan": "Sosiologi"
     },
     {
-        "index": 17,
+        "index": 14,
         "nama": "Drs. H. Mulyono Santoso, M.M.",
         "keterangan": "Kimia"
     },
     {
-        "index": 18,
+        "index": 15,
         "nama": "Mamuk Eko Prasetyo, M.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 19,
-        "nama": "M. Abdul Wakid, S.Pd.",
+        "index": 16,
+        "nama": "Mohammad Abdul Wakid, M.Pd.",
         "keterangan": "PPKn"
     },
     {
-        "index": 20,
-        "nama": "Hj. Heni Sri Wuryani, S.Pd.",
+        "index": 17,
+        "nama": "Hj. Heni Sriwuryani, M.Pd.",
         "keterangan": "BP/BK"
     },
     {
-        "index": 21,
+        "index": 18,
         "nama": "Fetri Sukisworo, S.Kom.",
         "keterangan": "Informatika"
     },
     {
-        "index": 22,
+        "index": 19,
         "nama": "Nisa Nur Dina, S.Pd.",
         "keterangan": "Bahasa Indonesia"
     },
     {
-        "index": 23,
+        "index": 20,
         "nama": "Ratna Suminar, S.Kom. M.Pd.",
         "keterangan": "Informatika"
     },
     {
-        "index": 24,
+        "index": 21,
         "nama": "Tria Bina Tama, S.Pd.",
         "keterangan": "BP/BK"
     },
     {
-        "index": 25,
-        "nama": "Aris Defiana,S.Kom",
+        "index": 22,
+        "nama": "Aris Defiana, S.Kom",
         "keterangan": "Informatika"
     },
     {
-        "index": 26,
+        "index": 23,
         "nama": "Dra. Noor Hayati",
         "keterangan": "Biologi"
     },
     {
-        "index": 27,
+        "index": 24,
         "nama": "Agung Setiawan, S.Pd.",
         "keterangan": "Seni Budaya"
     },
     {
-        "index": 28,
+        "index": 25,
         "nama": "Sri Wartiningsih, S.Pd.",
         "keterangan": "BP/BK"
     },
     {
-        "index": 29,
+        "index": 26,
         "nama": "Bahrun Nasor, M.Pd.I.",
         "keterangan": "PAI dan BP"
     },
     {
-        "index": 30,
-        "nama": "Dra. Susiani",
-        "keterangan": "Sejarah"
-    },
-    {
-        "index": 31,
+        "index": 27,
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang"
     },
     {
-        "index": 32,
+        "index": 28,
         "nama": "Lilik Suryani, S.Pd.",
         "keterangan": "Biologi"
     },
     {
-        "index": 33,
+        "index": 29,
         "nama": "Dwi Maryana, S.Pd.",
         "keterangan": "BP/BK"
     },
     {
-        "index": 34,
-        "nama": "Andi Suwignyo D, S.Pd.",
+        "index": 30,
+        "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
         "keterangan": "Penjasorkes"
     },
     {
-        "index": 35,
+        "index": 31,
         "nama": "Wiwik Rianawati, S.Pd.",
         "keterangan": "Ekonomi"
     },
     {
-        "index": 36,
+        "index": 32,
         "nama": "Istiyah, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 37,
+        "index": 33,
         "nama": "Hapsari Palupi, S.Pd.",
         "keterangan": "Bahasa Indonesia"
     },
     {
-        "index": 38,
+        "index": 34,
         "nama": "Prapti Rahayu, M.Pd.",
-        "keterangan": "PKWU"
+        "keterangan": "Biologi"
     },
     {
-        "index": 39,
-        "nama": "Sri Winarni,S.Pd.",
+        "index": 35,
+        "nama": "Sri Winarni, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 40,
-        "nama": "Drs. Dwi Handoko",
-        "keterangan": "Ekonomi"
-    },
-    {
-        "index": 41,
-        "nama": "Debby Ardhina, S.Ant.",
+        "index": 36,
+        "nama": "Debby Ardhina, S.Ant., M.Pd.",
         "keterangan": "Sosiologi"
     },
     {
-        "index": 42,
+        "index": 37,
         "nama": "Agung Prihartono, S.Pd.",
         "keterangan": "Penjasorkes"
     },
     {
-        "index": 43,
+        "index": 38,
         "nama": "Septikasari, S.Pd.",
         "keterangan": "BK"
     },
     {
-        "index": 44,
-        "nama": "Vitta Amelia, S.Pd.",
+        "index": 39,
+        "nama": "Vitta Amelia Suparno, S.Pd.",
         "keterangan": "BK"
     },
     {
-        "index": 45,
+        "index": 40,
         "nama": "Ika Murti Hapsari, S.Pd.",
         "keterangan": "BK"
     },
     {
-        "index": 46,
+        "index": 41,
         "nama": "Nur Umami, S.Pd.",
         "keterangan": "Sejarah"
     },
     {
-        "index": 47,
+        "index": 42,
         "nama": "Novi Dwi Cahyanti, S.Pd.",
         "keterangan": "Bahasa Indonesia"
     },
     {
-        "index": 48,
+        "index": 43,
         "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
         "keterangan": "Geografi"
     },
     {
-        "index": 49,
+        "index": 44,
         "nama": "Anisa Kusumaningrum, S.Pd.",
         "keterangan": "Geografi"
     },
     {
-        "index": 50,
-        "nama": "Wara Pamungkas  M., S.Pd.",
+        "index": 45,
+        "nama": "Wara Pamungkas Mustikaningtyas, S.Pd",
         "keterangan": "Sejarah"
     },
     {
-        "index": 51,
-        "nama": "Tya Rizki, S.Pd.",
+        "index": 46,
+        "nama": "Tya Rizki Wulandari, S.Pd.",
         "keterangan": "PPKn"
     },
     {
-        "index": 52,
-        "nama": "Rahma Diana Dewi, S. Kom.",
-        "keterangan": "Informatika"
+        "index": 47,
+        "nama": "Rahma Diana Dewi, S. Kom.1",
+        "keterangan": "BK-TIK"
     },
     {
-        "index": 53,
+        "index": 48,
         "nama": "Aprilina Trisusiani, S.Kom.",
-        "keterangan": "Informatika"
+        "keterangan": "BK-TIK"
     },
     {
-        "index": 54,
-        "nama": "Dra. Sri Kuncarawati",
-        "keterangan": "Kimia"
-    },
-    {
-        "index": 55,
-        "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa "
-    },
-    {
-        "index": 56,
-        "nama": "Imam Rosidi, M.Pd.I.",
-        "keterangan": "PAI dan BP"
-    },
-    {
-        "index": 57,
-        "nama": "Fisky Robsan S.T., S.Pd.",
+        "index": 49,
+        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
         "keterangan": "Penjasorkes"
     },
     {
-        "index": 58,
-        "nama": "Yuliana Dwi Purwatika, S.Pd.",
-        "keterangan": "Ekonomi"
+        "index": 50,
+        "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+        "keterangan": "Ekonomi/PKWU"
     },
     {
-        "index": 59,
-        "nama": "Ika Ayu Ningrum, S.Sos.",
-        "keterangan": "Sosiologi"
-    },
-    {
-        "index": 60,
-        "nama": "Avionita Wijayanti, S.Pd.",
-        "keterangan": "Bahasa Indonesia"
-    },
-    {
-        "index": 61,
-        "nama": "Ayu Oktia, S.Pd.",
-        "keterangan": "Sejarah"
-    },
-    {
-        "index": 62,
-        "nama": "Adib Fawaid, S.Pd.",
-        "keterangan": "Fisika"
-    },
-    {
-        "index": 63,
-        "nama": "Henindhar Amroh, S.Pd.",
-        "keterangan": "Bhs. Jawa"
-    },
-    {
-        "index": 64,
-        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
-        "keterangan": "PAI dan BP"
-    },
-    {
-        "index": 65,
-        "nama": "Arreza Mulya Prasetya, S.Pd.",
-        "keterangan": "Fisika"
-    },
-    {
-        "index": 66,
-        "nama": "Ika Lismarina, M.Pd.",
-        "keterangan": "Kimia"
-    },
-    {
-        "index": 67,
-        "nama": "Trisna Wulandari, S.Pd.",
+        "index": 51,
+        "nama": "Muhammad Galih Atmaja, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 68,
-        "nama": "Amna Riskya, S.Pd.",
-        "keterangan": "BK"
-    },
-    {
-        "index": 69,
-        "nama": "Muhammad Galih Atmaja, S.Pd. ",
+        "index": 52,
+        "nama": "Nur Widhi Hastuti, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 70,
-        "nama": "Nur Widhi Hastuti, S.Pd. ",
+        "index": 53,
+        "nama": "Rizky Dewi Nur Wahyudi, S.Pd.",
         "keterangan": "Matematika"
     },
     {
-        "index": 71,
-        "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
-        "keterangan": "Matematika"
-    },
-    {
-        "index": 72,
-        "nama": "Andi Ira Septivani, S.Pd. ",
+        "index": 54,
+        "nama": "Andi Ira Septivani, S.Pd.",
         "keterangan": "Pend. Pancasila"
     },
     {
-        "index": 73,
+        "index": 55,
         "nama": "Yuli Rachmawati, S.Pd.",
         "keterangan": "Bahasa Inggris"
     },
     {
-        "index": 74,
-        "nama": "Muhammad Mas'ud Arifin, S.Pd. ",
+        "index": 56,
+        "nama": "Bintari Setyo Ariyandini, S.Pd.",
+        "keterangan": "Bhs. Jawa"
+    },
+    {
+        "index": 57,
+        "nama": "Imam Rosidi, M.Pd.I.",
+        "keterangan": "PAI dan BP"
+    },
+    {
+        "index": 58,
+        "nama": "Ika Ayu Ningrum, S.Sos.",
+        "keterangan": "Sosiologi"
+    },
+    {
+        "index": 59,
+        "nama": "Avionita Wijayanti, S.Pd.",
+        "keterangan": "Bahasa Indonesia"
+    },
+    {
+        "index": 60,
+        "nama": "Ayu Oktia Wardani, S.Pd.",
         "keterangan": "Sejarah"
+    },
+    {
+        "index": 61,
+        "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+        "keterangan": "Fisika"
+    },
+    {
+        "index": 62,
+        "nama": "Henindhar Amroh, S.Pd.",
+        "keterangan": "Bhs. Jawa"
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP"
+    },
+    {
+        "index": 64,
+        "nama": "Arreza Mulya Prasetya, S.Pd.",
+        "keterangan": "Fisika"
+    },
+    {
+        "index": 65,
+        "nama": "Trisna Wulandari, S.Pd.",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 66,
+        "nama": "Amna Riskya, S.Pd.",
+        "keterangan": "BK"
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia"
+    },
+    {
+        "index": 68,
+        "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+        "keterangan": "Sejarah"
+    },
+    {
+        "index": 69,
+        "nama": "Virdian Dwi Cahyaningrum S.Pd",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 70,
+        "nama": "Lilik Sulistyorini S.Pd",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 71,
+        "nama": "Linda Pebriani, S.Pd.",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 72,
+        "nama": "Wiga Rafita S.Pd",
+        "keterangan": "Sejarah"
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 74,
+        "nama": "Agus Winardi S.E.",
+        "keterangan": "Ekonomi"
+    },
+    {
+        "index": 75,
+        "nama": "Pradini Ratih Wardhani S.Pd",
+        "keterangan": "Bahasa Indonesia"
+    },
+    {
+        "index": 76,
+        "nama": "Syaikhul Kafi, S.Pd.",
+        "keterangan": "Bahasa Inggris"
+    },
+    {
+        "index": 77,
+        "nama": "Anik Nurpatimah S.Pd, Gr",
+        "keterangan": "Ekonomi"
+    },
+    {
+        "index": 78,
+        "nama": "Rukmini Handayani S.Pd.",
+        "keterangan": "Bahasa Indonesia"
+    },
+    {
+        "index": 79,
+        "nama": "Firda Novi Azizah S.Pd.",
+        "keterangan": "Kimia"
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi"
+    },
+    {
+        "index": 81,
+        "nama": "Cita Retno Wulandari S.Pd.",
+        "keterangan": "Matematika"
+    },
+    {
+        "index": 82,
+        "nama": "Riza Albait Bayhaki S.Pd.",
+        "keterangan": "Bahasa Inggris"
     }
 ]
