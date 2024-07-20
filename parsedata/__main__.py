@@ -1,3 +1,3 @@
-from parsedata.parse import startParse
+from parsedata.parse_oldformat import startParse
 
 startParse()
