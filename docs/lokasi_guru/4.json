@@ -1,0 +1,26 @@
+[
+    {
+        "index": 4,
+        "nama": "Dra. Dwi Martiani",
+        "keterangan": "Bahasa Inggris",
+        "kelas": "XII-3",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 4,
+        "nama": "Dra. Dwi Martiani",
+        "keterangan": "Bahasa Inggris",
+        "kelas": "XII-3",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 4,
+        "nama": "Dra. Dwi Martiani",
+        "keterangan": "Bahasa Inggris",
+        "kelas": "XII-3",
+        "hari": 4,
+        "jam": 9
+    }
+]
