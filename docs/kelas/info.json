@@ -34,25 +34,20 @@
         ]
     },
     {
-        "jenjang": "XII-MIPA",
+        "jenjang": "XII",
         "kelas": [
-            "XII-MIPA-1",
-            "XII-MIPA-2",
-            "XII-MIPA-3",
-            "XII-MIPA-4",
-            "XII-MIPA-5",
-            "XII-MIPA-6",
-            "XII-MIPA-7",
-            "XII-MIPA-8"
-        ]
-    },
-    {
-        "jenjang": "XII-IPS",
-        "kelas": [
-            "XII-IPS-1",
-            "XII-IPS-2",
-            "XII-IPS-3",
-            "XII-IPS-4"
+            "XII-1",
+            "XII-2",
+            "XII-3",
+            "XII-4",
+            "XII-5",
+            "XII-6",
+            "XII-7",
+            "XII-8",
+            "XII-9",
+            "XII-10",
+            "XII-11",
+            "XII-12"
         ]
     }
 ]
