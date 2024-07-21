@@ -48,6 +48,7 @@ def parseJadwal(anggotaKelas):
     listKelas = []
     for k in kelasCol:
         namaKelas = k[0].value # Nama kelas
+        if not namaKelas: continue
         listKelas.append(namaKelas)
         print(namaKelas)
 
