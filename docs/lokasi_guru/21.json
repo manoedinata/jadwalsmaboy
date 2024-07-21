@@ -1,0 +1,42 @@
+[
+    {
+        "index": 21,
+        "nama": "Tria Bina Tama, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XI-8",
+        "hari": 3,
+        "jam": 3
+    },
+    {
+        "index": 21,
+        "nama": "Tria Bina Tama, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XI-9",
+        "hari": 4,
+        "jam": 10
+    },
+    {
+        "index": 21,
+        "nama": "Tria Bina Tama, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XI-10",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 21,
+        "nama": "Tria Bina Tama, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XI-11",
+        "hari": 3,
+        "jam": 6
+    },
+    {
+        "index": 21,
+        "nama": "Tria Bina Tama, S.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XI-12",
+        "hari": 1,
+        "jam": 10
+    }
+]
