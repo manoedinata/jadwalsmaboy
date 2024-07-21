@@ -38,5 +38,45 @@
         "kelas": "XII-1",
         "hari": 4,
         "jam": 8
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "XII-2",
+        "hari": 2,
+        "jam": 8
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "XII-2",
+        "hari": 2,
+        "jam": 9
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "XII-2",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "XII-2",
+        "hari": 4,
+        "jam": 9
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "XII-2",
+        "hari": 4,
+        "jam": 10
     }
 ]

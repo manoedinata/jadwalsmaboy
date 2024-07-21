@@ -19,6 +19,22 @@
         "index": 2,
         "nama": "Drs. Endro Santoso, M.M.",
         "keterangan": "PPKn",
+        "kelas": "XII-2",
+        "hari": 1,
+        "jam": 5
+    },
+    {
+        "index": 2,
+        "nama": "Drs. Endro Santoso, M.M.",
+        "keterangan": "PPKn",
+        "kelas": "XII-2",
+        "hari": 1,
+        "jam": 6
+    },
+    {
+        "index": 2,
+        "nama": "Drs. Endro Santoso, M.M.",
+        "keterangan": "PPKn",
         "kelas": "XII-3",
         "hari": 2,
         "jam": 1

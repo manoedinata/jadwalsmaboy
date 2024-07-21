@@ -35,6 +35,38 @@
         "index": 9,
         "nama": "Siti Fadilah, S.Pd.",
         "keterangan": "Matematika",
+        "kelas": "XII-2",
+        "hari": 1,
+        "jam": 3
+    },
+    {
+        "index": 9,
+        "nama": "Siti Fadilah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-2",
+        "hari": 1,
+        "jam": 4
+    },
+    {
+        "index": 9,
+        "nama": "Siti Fadilah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-2",
+        "hari": 5,
+        "jam": 9
+    },
+    {
+        "index": 9,
+        "nama": "Siti Fadilah, S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XII-2",
+        "hari": 5,
+        "jam": 10
+    },
+    {
+        "index": 9,
+        "nama": "Siti Fadilah, S.Pd.",
+        "keterangan": "Matematika",
         "kelas": "XII-3",
         "hari": 1,
         "jam": 5
