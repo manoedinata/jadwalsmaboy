@@ -22,5 +22,21 @@
         "kelas": "XII-3",
         "hari": 4,
         "jam": 10
+    },
+    {
+        "index": 17,
+        "nama": "Hj. Heni Sriwuryani, M.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-11",
+        "hari": 5,
+        "jam": 11
+    },
+    {
+        "index": 17,
+        "nama": "Hj. Heni Sriwuryani, M.Pd.",
+        "keterangan": "BP/BK",
+        "kelas": "XII-12",
+        "hari": 1,
+        "jam": 1
     }
 ]

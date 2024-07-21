@@ -2,7 +2,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-1",
         "hari": 5,
         "jam": 1
@@ -10,7 +10,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-1",
         "hari": 5,
         "jam": 2
@@ -18,7 +18,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-2",
         "hari": 5,
         "jam": 3
@@ -26,7 +26,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-2",
         "hari": 5,
         "jam": 4
@@ -34,7 +34,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-3",
         "hari": 2,
         "jam": 5
@@ -42,7 +42,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-3",
         "hari": 2,
         "jam": 6
@@ -50,7 +50,7 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-4",
         "hari": 5,
         "jam": 8
@@ -58,9 +58,41 @@
     {
         "index": 56,
         "nama": "Bintari Setyo Ariyandini, S.Pd.",
-        "keterangan": "Bhs. Jawa",
+        "keterangan": "Bhs. Jawa ",
         "kelas": "XII-4",
         "hari": 5,
         "jam": 9
+    },
+    {
+        "index": 56,
+        "nama": "Bintari Setyo Ariyandini, S.Pd.",
+        "keterangan": "Bhs. Jawa ",
+        "kelas": "XII-9",
+        "hari": 5,
+        "jam": 5
+    },
+    {
+        "index": 56,
+        "nama": "Bintari Setyo Ariyandini, S.Pd.",
+        "keterangan": "Bhs. Jawa ",
+        "kelas": "XII-9",
+        "hari": 5,
+        "jam": 6
+    },
+    {
+        "index": 56,
+        "nama": "Bintari Setyo Ariyandini, S.Pd.",
+        "keterangan": "Bhs. Jawa ",
+        "kelas": "XII-10",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 56,
+        "nama": "Bintari Setyo Ariyandini, S.Pd.",
+        "keterangan": "Bhs. Jawa ",
+        "kelas": "XII-10",
+        "hari": 1,
+        "jam": 2
     }
 ]
