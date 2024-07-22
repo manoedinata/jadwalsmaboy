@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jadwal Pelajaran</title>
+    <title>Lokasi Guru</title>
 
     <!-- Bootstrap -->
     <link
@@ -40,11 +40,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="./index.html"
+            <a class="nav-link" aria-current="page" href="./index.html"
               >Pelajaran</a
             >
             <a class="nav-link" aria-current="page" href="./guru.html">Guru</a>
-            <a class="nav-link" aria-current="page" href="./lokasi_guru.html"
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="./lokasi_guru.html"
               >Lokasi Guru</a
             >
             <a
@@ -60,20 +63,17 @@
 
     <div id="hero" class="bg-blue-dark text-white">
       <div class="px-4 py-5 text-center">
-        <h1 class="display-4 fw-bold">Jadwal Pelajaran</h1>
+        <h1 class="display-4 fw-bold">Lokasi Guru</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            Lihat jadwal pelajaran seluruh kelas beserta nama guru yang
-            mengajar.
-          </p>
+          <p class="lead mb-4">Lihat lokasi guru mengajar selama KBM.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <select
-              id="pilihKelas"
+              id="pilihGuru"
               class="form-select form-select-lg"
-              aria-label="Pilih kelas"
+              aria-label="Pilih id"
               disabled
             >
-              <option value="" selected>Pilih kelas...</option>
+              <option value="" selected>Pilih guru...</option>
             </select>
           </div>
         </div>
@@ -102,7 +102,7 @@
 
     <div id="jadwal" style="display: none">
       <div class="container">
-        <h2 id="kelasName" class="text-center mb-4"></h2>
+        <h2 id="idName" class="text-center mb-4"></h2>
         <div class="table-responsive">
           <table id="jadwalTable" class="table text-center">
             <thead class="table-dark">
@@ -143,116 +143,120 @@
 
       <script>
         // Helpers
-        function getMaxLengthInArrays(listOfArray) {
-          let max_length = 0;
-          listOfArray.forEach((element) => {
-            if (element.length > max_length) {
-              max_length = element.length;
-            }
-          });
-
-          return max_length;
+        function checkIfHariMatch(element, hari) {
+          return element["hari"] == hari;
+        }
+        function checkIfJamMatch(element, jam) {
+          return element["jam"] == jam;
         }
       </script>
       <script>
-        function fetchKelasInfo() {
+        const maxJadwal = 11;
+        const maxDays = 5;
+
+        function fetchGuruInfo() {
           $.ajax({
-            url: "kelas/info.json",
+            url: "guru/all.json",
             type: "GET",
             dataType: "json",
             // Run in synchronous to avoid early loaded Javascript
             async: false,
             success: function (data, textStatus, jqXHR) {
               data.forEach((element) => {
-                let optgroup = document.createElement("optgroup");
-                optgroup.label = "Kelas " + element["jenjang"];
+                let option = document.createElement("option");
+                option.value = element["index"];
+                option.textContent = element["nama"];
 
-                element["kelas"].forEach((kelas) => {
-                  let option = document.createElement("option");
-                  option.value = kelas;
-                  option.textContent = kelas;
-
-                  optgroup.append(option);
-                });
-
-                $("#pilihKelas").append(optgroup);
+                $("#pilihGuru").append(option);
               });
 
-              $("#pilihKelas").prop("disabled", false);
+              $("#pilihGuru").prop("disabled", false);
             },
           });
         }
 
-        function getJadwal(kelas) {
-          if (!kelas) return;
+        function getGuru(id) {
+          if (!id) return;
+
+          // Simpan nama guru
+          let namaGuru;
+
           $.ajax({
-            url: `kelas/${kelas}.json`,
+            url: `lokasi_guru/${id}.json`,
             type: "GET",
             dataType: "json",
             success: function (dataPerHari, textStatus, jqXHR) {
               $("#tbodyTable").empty();
 
-              let maxJamPelajaran = getMaxLengthInArrays(dataPerHari);
-              for (let jamPelajaran of Array(maxJamPelajaran).keys()) {
+              // Loop 1: Jadwal (row)
+              for (let i = 1; i <= maxJadwal; i++) {
                 let trPerHari = document.createElement("tr");
 
                 // Jam ke-
                 let tdJamPelajaran = document.createElement("td");
-                tdJamPelajaran.innerText = jamPelajaran + 1;
+                tdJamPelajaran.innerText = i;
                 trPerHari.append(tdJamPelajaran);
 
-                dataPerHari.forEach((element, index) => {
-                  let pelajaran = element[jamPelajaran];
-
+                // Loop 2: Hari (column)
+                for (let j = 1; j <= maxDays; j++) {
                   let td = document.createElement("td");
+                  let pelajaran = dataPerHari.find(
+                    (pelajaran) =>
+                      checkIfHariMatch(pelajaran, j) &&
+                      checkIfJamMatch(pelajaran, i)
+                  );
+
                   if (pelajaran) {
-                    td.innerText = pelajaran["keterangan"];
+                    if (!namaGuru) namaGuru = pelajaran["nama"];
+
+                    td.innerText = pelajaran["kelas"];
                     $(td).popover({
                       title: pelajaran["keterangan"],
-                      content: pelajaran["nama"],
+                      content: `Mengajar di ${pelajaran["kelas"]}`,
                       trigger: "hover focus",
                     });
                   } else {
                     td.innerText = "-";
                   }
                   trPerHari.append(td);
-                });
+                }
 
                 $("#tbodyTable").append(trPerHari);
 
                 // Waktu istirahat
-                let trIstirahat = document.createElement("tr");
-                let tdIstirahat = document.createElement("td");
-                let istirahatText = document.createElement("strong");
-                istirahatText.textContent = "ISTIRAHAT";
-                tdIstirahat.colSpan = 6;
-                tdIstirahat.append(istirahatText);
-                trIstirahat.append(tdIstirahat);
-                if (jamPelajaran == 3 || jamPelajaran == 5) {
+                if (i == 3 || i == 5) {
+                  let trIstirahat = document.createElement("tr");
+                  let tdIstirahat = document.createElement("td");
+                  let istirahatText = document.createElement("strong");
+                  istirahatText.textContent = "ISTIRAHAT";
+                  tdIstirahat.colSpan = maxDays + 1;
+                  tdIstirahat.append(istirahatText);
+                  trIstirahat.append(tdIstirahat);
                   $("#tbodyTable").append(trIstirahat);
                 }
-
-                $("#kelasName").text("Kelas " + kelas);
-                $("#jadwal").show();
               }
+
+              $("#idName").text(namaGuru);
+              $("#jadwal").show();
             },
           });
         }
       </script>
+
       <script>
-        $("#pilihKelas").on("change", function (event) {
-          getJadwal(this.value);
+        $("#pilihGuru").on("change", function () {
+          getGuru(this.value);
         });
 
         $(document).ready(() => {
-          // Ambil daftar kelas
-          fetchKelasInfo();
+          // Ambil daftar id
+          fetchGuruInfo();
 
           // Support URL parameter
           const urlParams = new URLSearchParams(window.location.search);
-          if (urlParams.get("kelas")) {
-            $("#pilihKelas").val(urlParams.get("kelas"));
-            $("#pilihKelas").change();
+          if (urlParams.get("id")) {
+            $("#pilihGuru").val(urlParams.get("id"));
+            $("#pilihGuru").change();
           }
         });
       </script>
