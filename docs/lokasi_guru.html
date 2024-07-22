@@ -165,7 +165,7 @@
               data.forEach((element) => {
                 let option = document.createElement("option");
                 option.value = element["index"];
-                option.textContent = element["nama"];
+                option.textContent = `${element["index"]}. ${element["nama"]}`;
 
                 $("#pilihGuru").append(option);
               });
