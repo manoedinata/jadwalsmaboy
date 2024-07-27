@@ -228,9 +228,10 @@
                 let trPerHari = document.createElement("tr");
 
                 // Jam ke-
-                let tdJamPelajaran = document.createElement("td");
-                tdJamPelajaran.innerText = jamPelajaran + 1;
-                trPerHari.append(tdJamPelajaran);
+                let thJamPelajaran = document.createElement("th");
+                thJamPelajaran.scope = "row";
+                thJamPelajaran.innerText = jamPelajaran + 1;
+                trPerHari.append(thJamPelajaran);
 
                 dataPerHari.forEach((element, index) => {
                   let pelajaran = element[jamPelajaran];
