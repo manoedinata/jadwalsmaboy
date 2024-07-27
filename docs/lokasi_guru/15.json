@@ -157,6 +157,14 @@
         "keterangan": "Matematika",
         "kelas": "XI-8",
         "hari": 3,
+        "jam": 3
+    },
+    {
+        "index": 15,
+        "nama": "Mamuk Eko Prasetyo, M.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "XI-8",
+        "hari": 3,
         "jam": 4
     },
     {
@@ -166,14 +174,6 @@
         "kelas": "XI-8",
         "hari": 3,
         "jam": 5
-    },
-    {
-        "index": 15,
-        "nama": "Mamuk Eko Prasetyo, M.Pd.",
-        "keterangan": "Matematika",
-        "kelas": "XI-8",
-        "hari": 3,
-        "jam": 6
     },
     {
         "index": 15,

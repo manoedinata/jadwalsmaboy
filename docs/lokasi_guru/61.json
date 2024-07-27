@@ -84,6 +84,22 @@
         "nama": "Adib Fawaid Kurniansyah, S.Pd.",
         "keterangan": "Fisika",
         "kelas": "XI-8",
+        "hari": 2,
+        "jam": 3
+    },
+    {
+        "index": 61,
+        "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-8",
+        "hari": 2,
+        "jam": 4
+    },
+    {
+        "index": 61,
+        "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-8",
         "hari": 4,
         "jam": 1
     },

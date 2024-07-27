@@ -158,5 +158,37 @@
         "kelas": "XI-10",
         "hari": 5,
         "jam": 6
+    },
+    {
+        "index": 24,
+        "nama": "Agung Setiawan, S.Pd.",
+        "keterangan": "Seni Budaya",
+        "kelas": "XI-11",
+        "hari": 5,
+        "jam": 3
+    },
+    {
+        "index": 24,
+        "nama": "Agung Setiawan, S.Pd.",
+        "keterangan": "Seni Budaya",
+        "kelas": "XI-11",
+        "hari": 5,
+        "jam": 4
+    },
+    {
+        "index": 24,
+        "nama": "Agung Setiawan, S.Pd.",
+        "keterangan": "Seni Budaya",
+        "kelas": "XI-12",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 24,
+        "nama": "Agung Setiawan, S.Pd.",
+        "keterangan": "Seni Budaya",
+        "kelas": "XI-12",
+        "hari": 1,
+        "jam": 2
     }
 ]
