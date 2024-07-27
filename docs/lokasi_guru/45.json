@@ -53,7 +53,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 4
+        "jam": 1
     },
     {
         "index": 45,
@@ -61,7 +61,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 5
+        "jam": 2
     },
     {
         "index": 45,
@@ -69,7 +69,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 6
+        "jam": 3
     },
     {
         "index": 45,
@@ -149,7 +149,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-7",
         "hari": 2,
-        "jam": 6
+        "jam": 4
     },
     {
         "index": 45,
@@ -157,7 +157,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-7",
         "hari": 2,
-        "jam": 7
+        "jam": 5
     },
     {
         "index": 45,
@@ -165,14 +165,6 @@
         "keterangan": "Sejarah",
         "kelas": "X-7",
         "hari": 2,
-        "jam": 8
-    },
-    {
-        "index": 45,
-        "nama": "Wara Pamungkas Mustikaningtyas, S.Pd.",
-        "keterangan": "Sejarah",
-        "kelas": "X-8",
-        "hari": 4,
         "jam": 6
     },
     {
@@ -181,7 +173,7 @@
         "keterangan": "Sejarah",
         "kelas": "X-8",
         "hari": 4,
-        "jam": 7
+        "jam": 3
     },
     {
         "index": 45,
@@ -189,6 +181,14 @@
         "keterangan": "Sejarah",
         "kelas": "X-8",
         "hari": 4,
-        "jam": 8
+        "jam": 4
+    },
+    {
+        "index": 45,
+        "nama": "Wara Pamungkas Mustikaningtyas, S.Pd.",
+        "keterangan": "Sejarah",
+        "kelas": "X-8",
+        "hari": 4,
+        "jam": 5
     }
 ]

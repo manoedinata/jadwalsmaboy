@@ -53,7 +53,7 @@
         "keterangan": "PAI dan BP",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 1
+        "jam": 4
     },
     {
         "index": 63,
@@ -61,7 +61,7 @@
         "keterangan": "PAI dan BP",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 2
+        "jam": 5
     },
     {
         "index": 63,
@@ -69,15 +69,7 @@
         "keterangan": "PAI dan BP",
         "kelas": "X-3",
         "hari": 1,
-        "jam": 3
-    },
-    {
-        "index": 63,
-        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
-        "keterangan": "PAI dan BP",
-        "kelas": "X-4",
-        "hari": 2,
-        "jam": 7
+        "jam": 6
     },
     {
         "index": 63,
@@ -94,6 +86,14 @@
         "kelas": "X-4",
         "hari": 2,
         "jam": 9
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP",
+        "kelas": "X-4",
+        "hari": 2,
+        "jam": 10
     },
     {
         "index": 63,
@@ -166,6 +166,30 @@
         "kelas": "X-7",
         "hari": 5,
         "jam": 8
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP",
+        "kelas": "X-8",
+        "hari": 2,
+        "jam": 5
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP",
+        "kelas": "X-8",
+        "hari": 2,
+        "jam": 6
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP",
+        "kelas": "X-8",
+        "hari": 2,
+        "jam": 7
     },
     {
         "index": 63,
