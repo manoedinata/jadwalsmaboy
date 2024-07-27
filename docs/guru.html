@@ -96,9 +96,16 @@
       </svg>
     </div>
 
-    <div id="jadwal">
+    <div id="guru">
       <div class="container">
-        <h2 id="kelasName" class="text-center mb-4"></h2>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="search form-control"
+            placeholder="Cari guru..."
+          />
+        </div>
+
         <div class="table-responsive">
           <table id="jadwalTable" class="table text-center table-striped">
             <thead class="table-dark">
@@ -108,7 +115,7 @@
                 <th scope="col">Keterangan / Mata Pelajaran</th>
               </tr>
             </thead>
-            <tbody id="tbodyTable">
+            <tbody id="tbodyTable" class="list">
               <tr>
                 <td colspan="3"><i>Mengambil data...</i></td>
               </tr>
@@ -134,6 +141,9 @@
         crossorigin="anonymous"
       ></script>
 
+      <!-- List.js -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+
       <script>
         function getGuru() {
           $.ajax({
@@ -148,17 +158,21 @@
                 let trGuru = document.createElement("tr");
 
                 // #
-                let nomorGuru = document.createElement("td");
+                let nomorGuru = document.createElement("th");
+                nomorGuru.scope = "row";
+                nomorGuru.classList.add("index");
                 nomorGuru.innerText = element["index"];
                 trGuru.append(nomorGuru);
 
                 // Nama
                 let namaGuru = document.createElement("td");
+                namaGuru.classList.add("nama");
                 namaGuru.innerText = element["nama"];
                 trGuru.append(namaGuru);
 
                 // Keterangan
                 let ketGuru = document.createElement("td");
+                ketGuru.classList.add("keterangan");
                 ketGuru.innerText = element["keterangan"];
                 trGuru.append(ketGuru);
 
@@ -166,6 +180,13 @@
               });
 
               $("#jadwal").show();
+
+              // Activate List.js search
+              var options = {
+                valueNames: ["index", "nama", "keterangan"],
+              };
+
+              var userList = new List("guru", options);
             },
           });
         }
