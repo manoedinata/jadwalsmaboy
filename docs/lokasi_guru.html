@@ -72,16 +72,19 @@
         <h1 class="display-4 fw-bold">Lokasi Guru</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Lihat lokasi guru mengajar selama KBM.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <select
-              id="pilihGuru"
-              class="form-select form-select-lg"
-              aria-label="Pilih id"
-              disabled
-            >
-              <option value="" selected>Pilih guru...</option>
-            </select>
-          </div>
+          <form action="" method="get">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <select
+                name="id"
+                id="pilihGuru"
+                class="form-select form-select-lg"
+                aria-label="Pilih id"
+                disabled
+              >
+                <option value="" selected>Pilih guru...</option>
+              </select>
+            </div>
+          </form>
         </div>
       </div>
 
@@ -251,7 +254,7 @@
 
       <script>
         $("#pilihGuru").on("change", function () {
-          getGuru(this.value);
+          $("form").submit();
         });
 
         $(document).ready(() => {
@@ -260,9 +263,12 @@
 
           // Support URL parameter
           const urlParams = new URLSearchParams(window.location.search);
-          if (urlParams.get("id")) {
-            $("#pilihGuru").val(urlParams.get("id"));
-            $("#pilihGuru").change();
+          var id = urlParams.get("id");
+          if (id) {
+            $("#pilihGuru").val(id);
+
+            // Ambil data guru
+            getGuru(id);
           }
         });
       </script>
