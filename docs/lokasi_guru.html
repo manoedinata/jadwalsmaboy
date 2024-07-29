@@ -149,6 +149,14 @@
       </div>
     </div>
 
+    <div id="errorAlerts" style="display: none">
+      <div class="container">
+        <div class="alert alert-danger my-4" role="alert">
+          <div id="errorText"></div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
         <footer class="py-3 my-4">
@@ -271,6 +279,19 @@
 
               $("#idName").text(namaGuru);
               $("#jadwal").show();
+            },
+            error: function (request, status, error) {
+              if (request.status == 404) {
+                $("#errorText").text(
+                  "Maaf, lokasi guru tidak ditemukan. Kemungkinan guru ini tidak mengajar!"
+                );
+              } else {
+                $("#errorText").text(
+                  "Maaf, terjadi kesalahan saat mengambil data. Harap coba lagi dan lapor jika masih tidak bisa."
+                );
+              }
+
+              $("#errorAlerts").show();
             },
           });
         }
