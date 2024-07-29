@@ -13,16 +13,17 @@ from .whatsapp import sendMessage
 ENV = os.environ.get("ENV")
 if ENV:
     from . import Config
-    config = Config(group_id=os.environ.get("GROUPID"), bot_token=os.environ.get())
+    config = Config(
+        group_id=os.environ.get("GROUP_ID"),
+        bot_token=os.environ.get("BOT_TOKEN")
+    )
 else:
     from .config import config
-
-FONTE_WHATSAPP_SEND_API = ""
 
 # TODO: Gunakan timezone Asia/Jakarta
 hariIni = datetime.today()
 besok = hariIni + timedelta(days=1)
-HARI = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"]
+HARI = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"] # TODO: Gunakan array yang lebih baik
 
 # Initialize WhatsApp message text
 whatsappText = ""
@@ -39,9 +40,14 @@ async def main():
     for jenjang in kelasInfo:
         for kelas in jenjang["kelas"]:
             print(f"Mengambil data jadwal ({kelas})...")
+
+            nomorGrup = config.group_id.get(kelas)
+            if not nomorGrup:
+                print(f"Nomor grup {kelas} tidak ada! Skip")
+                continue
+
             jadwalData = await getJadwalData(kelas)
             jadwal = parseJadwal(jadwalData, besok.weekday())
-
             if not jadwal:
                 print(f"Jadwal {kelas} untuk besok tidak ada!")
                 continue
@@ -55,10 +61,6 @@ async def main():
             print(sendText)
 
             # Send message
-            nomorGrup = config.group_id.get(kelas)
-            if not nomorGrup:
-                print(f"Nomor grup {kelas} tidak ada! Skip")
-                continue
             send = await sendMessage(sendText, nomorGrup, config.bot_token)
             print(send)
 
