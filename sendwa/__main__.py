@@ -39,13 +39,12 @@ async def main():
 
     for jenjang in kelasInfo:
         for kelas in jenjang["kelas"]:
-            print(f"Mengambil data jadwal ({kelas})...")
-
             nomorGrup = config.group_id.get(kelas)
             if not nomorGrup:
                 print(f"Nomor grup {kelas} tidak ada! Skip")
                 continue
 
+            print(f"Mengambil data jadwal ({kelas})...")
             jadwalData = await getJadwalData(kelas)
             jadwal = parseJadwal(jadwalData, besok.weekday())
             if not jadwal:
