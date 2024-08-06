@@ -148,22 +148,6 @@
         "nama": "Firda Novi Azizah S.Pd.",
         "keterangan": "Kimia",
         "kelas": "XI-5",
-        "hari": 2,
-        "jam": 3
-    },
-    {
-        "index": 79,
-        "nama": "Firda Novi Azizah S.Pd.",
-        "keterangan": "Kimia",
-        "kelas": "XI-5",
-        "hari": 2,
-        "jam": 4
-    },
-    {
-        "index": 79,
-        "nama": "Firda Novi Azizah S.Pd.",
-        "keterangan": "Kimia",
-        "kelas": "XI-5",
         "hari": 4,
         "jam": 1
     },
@@ -182,6 +166,22 @@
         "kelas": "XI-5",
         "hari": 4,
         "jam": 3
+    },
+    {
+        "index": 79,
+        "nama": "Firda Novi Azizah S.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XI-5",
+        "hari": 5,
+        "jam": 8
+    },
+    {
+        "index": 79,
+        "nama": "Firda Novi Azizah S.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XI-5",
+        "hari": 5,
+        "jam": 9
     },
     {
         "index": 79,
