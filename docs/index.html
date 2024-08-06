@@ -115,35 +115,39 @@
     <div id="jadwal" style="display: none">
       <div class="container">
         <div class="d-flex mb-4">
-          <button
-            type="button"
-            id="jadikanUtama"
-            class="btn btn-success ms-auto"
-          >
-            <i class="bi bi-star"></i>
-            Jadikan utama
-          </button>
+          <div class="ms-auto">
+            <button type="button" id="jadikanUtama" class="btn btn-success">
+              <i class="bi bi-star"></i>
+              Jadikan utama
+            </button>
+            <button type="button" id="printJadwal" class="btn btn-danger">
+              <i class="bi bi-printer-fill"></i>
+              Cetak jadwal
+            </button>
+          </div>
         </div>
 
-        <h2 id="kelasName" class="text-center mb-4"></h2>
-        <div class="table-responsive mb-4">
-          <table id="jadwalTable" class="table text-center">
-            <thead class="table-dark">
-              <tr>
-                <th scope="col">Jam Ke-</th>
-                <th scope="col">Senin</th>
-                <th scope="col">Selasa</th>
-                <th scope="col">Rabu</th>
-                <th scope="col">Kamis</th>
-                <th scope="col">Jumat</th>
-              </tr>
-            </thead>
-            <tbody id="tbodyTable">
-              <tr>
-                <td colspan="6">Mengambil data...</td>
-              </tr>
-            </tbody>
-          </table>
+        <div id="jadwalContent">
+          <h2 id="kelasName" class="text-center mb-4"></h2>
+          <div class="table-responsive mb-4">
+            <table id="jadwalTable" class="table text-center">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col">Jam Ke-</th>
+                  <th scope="col">Senin</th>
+                  <th scope="col">Selasa</th>
+                  <th scope="col">Rabu</th>
+                  <th scope="col">Kamis</th>
+                  <th scope="col">Jumat</th>
+                </tr>
+              </thead>
+              <tbody id="tbodyTable">
+                <tr>
+                  <td colspan="6">Mengambil data...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div class="mb-4">
@@ -195,6 +199,13 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossorigin="anonymous"
       ></script>
+
+      <!-- Print.js -->
+      <link
+        rel="stylesheet"
+        href="https://printjs-4de6.kxcdn.com/print.min.css"
+      />
+      <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
 
       <script>
         // Helpers
@@ -350,6 +361,29 @@
         const popoverList = [...popoverTriggerList].map(
           (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
         );
+      </script>
+      <script>
+        function getStylesheetUrls() {
+          const urls = [];
+          for (const stylesheet of document.styleSheets) {
+            if (stylesheet.href) {
+              urls.push(stylesheet.href);
+            }
+          }
+          return urls;
+        }
+
+        function print() {
+          printJS({
+            printable: "jadwalContent",
+            type: "html",
+            css: getStylesheetUrls(),
+            scanStyles: false,
+            targetStyles: ["*"],
+          });
+        }
+
+        $("#printJadwal").click(() => print());
       </script>
     </footer>
   </body>
