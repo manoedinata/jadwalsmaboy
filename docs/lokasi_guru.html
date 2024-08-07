@@ -130,24 +130,40 @@
 
         <div id="jadwalContent">
           <h2 id="idName" class="text-center mb-4"></h2>
-          <div class="table-responsive">
-            <table id="jadwalTable" class="table text-center">
-              <thead class="table-dark">
-                <tr>
-                  <th scope="col">Jam Ke-</th>
-                  <th scope="col">Senin</th>
-                  <th scope="col">Selasa</th>
-                  <th scope="col">Rabu</th>
-                  <th scope="col">Kamis</th>
-                  <th scope="col">Jumat</th>
-                </tr>
-              </thead>
-              <tbody id="tbodyTable">
-                <tr>
-                  <td colspan="6">Mengambil data...</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="row">
+            <div class="table-responsive col-lg-8 col-12">
+              <table id="jadwalTable" class="table text-center">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Jam Ke-</th>
+                    <th scope="col">Senin</th>
+                    <th scope="col">Selasa</th>
+                    <th scope="col">Rabu</th>
+                    <th scope="col">Kamis</th>
+                  </tr>
+                </thead>
+                <tbody id="tbodyTable">
+                  <tr>
+                    <td colspan="5">Mengambil data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive col-lg-4 col-12">
+              <table id="jadwalTableJumat" class="table text-center">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Jam Ke-</th>
+                    <th scope="col">Jumat</th>
+                  </tr>
+                </thead>
+                <tbody id="tbodyTableJumat">
+                  <tr>
+                    <td colspan="2">Mengambil data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -239,9 +255,11 @@
             dataType: "json",
             success: function (dataPerHari, textStatus, jqXHR) {
               $("#tbodyTable").empty();
+              $("#tbodyTableJumat").empty();
 
+              // Hari Biasa
               // Loop 1: Jadwal (row)
-              for (let i = 1; i <= maxJadwal; i++) {
+              for (let i = 1; i <= maxJadwal - 1; i++) {
                 let trPerHari = document.createElement("tr");
 
                 // Jam ke-
@@ -250,7 +268,7 @@
                 trPerHari.append(tdJamPelajaran);
 
                 // Loop 2: Hari (column)
-                for (let j = 1; j <= maxDays; j++) {
+                for (let j = 1; j <= maxDays - 1; j++) {
                   let td = document.createElement("td");
                   let pelajaran = dataPerHari.find(
                     (pelajaran) =>
@@ -285,6 +303,54 @@
                   tdIstirahat.append(istirahatText);
                   trIstirahat.append(tdIstirahat);
                   $("#tbodyTable").append(trIstirahat);
+                }
+              }
+
+              // Hari Jumat
+              // Loop 1: Jadwal (row)
+              for (let i = 1; i <= maxJadwal; i++) {
+                let trPerHari = document.createElement("tr");
+
+                // Jam ke-
+                let tdJamPelajaran = document.createElement("td");
+                tdJamPelajaran.innerText = i;
+                trPerHari.append(tdJamPelajaran);
+
+                // Langsung ambil: Hari Jumat (column)
+                let j = maxDays;
+                let td = document.createElement("td");
+                let pelajaran = dataPerHari.find(
+                  (pelajaran) =>
+                    checkIfHariMatch(pelajaran, j) &&
+                    checkIfJamMatch(pelajaran, i)
+                );
+
+                if (pelajaran) {
+                  if (!namaGuru) namaGuru = pelajaran["nama"];
+
+                  td.innerText = pelajaran["kelas"];
+                  $(td).popover({
+                    title: pelajaran["keterangan"],
+                    content: `Mengajar di ${pelajaran["kelas"]}`,
+                    trigger: "hover focus",
+                  });
+                } else {
+                  td.innerText = "-";
+                }
+                trPerHari.append(td);
+
+                $("#tbodyTableJumat").append(trPerHari);
+
+                // Waktu istirahat
+                if (i == 4 || i == 8) {
+                  let trIstirahat = document.createElement("tr");
+                  let tdIstirahat = document.createElement("td");
+                  let istirahatText = document.createElement("strong");
+                  istirahatText.textContent = "ISTIRAHAT";
+                  tdIstirahat.colSpan = maxDays + 1;
+                  tdIstirahat.append(istirahatText);
+                  trIstirahat.append(tdIstirahat);
+                  $("#tbodyTableJumat").append(trIstirahat);
                 }
               }
 

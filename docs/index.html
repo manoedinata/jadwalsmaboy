@@ -129,24 +129,40 @@
 
         <div id="jadwalContent">
           <h2 id="kelasName" class="text-center mb-4"></h2>
-          <div class="table-responsive mb-4">
-            <table id="jadwalTable" class="table text-center">
-              <thead class="table-dark">
-                <tr>
-                  <th scope="col">Jam Ke-</th>
-                  <th scope="col">Senin</th>
-                  <th scope="col">Selasa</th>
-                  <th scope="col">Rabu</th>
-                  <th scope="col">Kamis</th>
-                  <th scope="col">Jumat</th>
-                </tr>
-              </thead>
-              <tbody id="tbodyTable">
-                <tr>
-                  <td colspan="6">Mengambil data...</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="row">
+            <div class="table-responsive col-lg-8 col-12 mb-4">
+              <table id="jadwalTable" class="table text-center">
+                <thead class="table-info">
+                  <tr>
+                    <th scope="col">Jam Ke-</th>
+                    <th scope="col">Senin</th>
+                    <th scope="col">Selasa</th>
+                    <th scope="col">Rabu</th>
+                    <th scope="col">Kamis</th>
+                  </tr>
+                </thead>
+                <tbody id="tbodyTable">
+                  <tr>
+                    <td colspan="6">Mengambil data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive col-lg-4 col-12 mb-4">
+              <table id="jadwalTableJumat" class="table text-center">
+                <thead class="table-success">
+                  <tr>
+                    <th scope="col">Jam Ke-</th>
+                    <th scope="col">Jumat</th>
+                  </tr>
+                </thead>
+                <tbody id="tbodyTableJumat">
+                  <tr>
+                    <td colspan="1">Mengambil data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
@@ -170,11 +186,6 @@
               </li>
               <li>
                 Khusus kelas X, pelajaran berakhir pada jam ke-8 di hari Jumat.
-              </li>
-              <li>
-                Urutan waktu KBM di hari Jumat sedikit berbeda: Sebelum
-                istirahat kedua, terdapat 4 mata pelajaran. Harap menyesuaikan,
-                web jadwal sedang diusahakan untuk menyamai perubahan tersebut.
               </li>
             </ul>
           </div>
@@ -265,9 +276,15 @@
             dataType: "json",
             success: function (dataPerHari, textStatus, jqXHR) {
               $("#tbodyTable").empty();
+              $("#tbodyTableJumat").empty();
 
               let maxJamPelajaran = getMaxLengthInArrays(dataPerHari);
-              for (let jamPelajaran of Array(maxJamPelajaran).keys()) {
+
+              // Hari biasa
+              /// Hari biasa maksimal 10 pelajaran
+              /// Jika aturan ini berubah, tolong kode di bawah disesuaikan
+              let jamPelajaranBiasa = maxJamPelajaran - 1;
+              for (let jamPelajaran of Array(jamPelajaranBiasa).keys()) {
                 let trPerHari = document.createElement("tr");
 
                 // Jam ke-
@@ -276,7 +293,9 @@
                 thJamPelajaran.innerText = jamPelajaran + 1;
                 trPerHari.append(thJamPelajaran);
 
-                dataPerHari.forEach((element, index) => {
+                let trimmedDataPerHari = dataPerHari.slice();
+                trimmedDataPerHari.pop();
+                trimmedDataPerHari.forEach((element, index) => {
                   let pelajaran = element[jamPelajaran];
 
                   let td = document.createElement("td");
@@ -300,16 +319,57 @@
                 let tdIstirahat = document.createElement("td");
                 let istirahatText = document.createElement("strong");
                 istirahatText.textContent = "ISTIRAHAT";
-                tdIstirahat.colSpan = 6;
+                tdIstirahat.colSpan = 5;
                 tdIstirahat.append(istirahatText);
                 trIstirahat.append(tdIstirahat);
                 if (jamPelajaran == 3 || jamPelajaran == 5) {
                   $("#tbodyTable").append(trIstirahat);
                 }
-
-                $("#kelasName").text("Kelas " + kelas);
-                $("#jadwal").show();
               }
+
+              // Hari Jumat
+              for (let jamPelajaran of Array(maxJamPelajaran).keys()) {
+                let trPerHari = document.createElement("tr");
+
+                // Jam ke-
+                let thJamPelajaran = document.createElement("th");
+                thJamPelajaran.scope = "row";
+                thJamPelajaran.innerText = jamPelajaran + 1;
+                trPerHari.append(thJamPelajaran);
+
+                let element = dataPerHari.slice(-1).pop();
+                let pelajaran = element[jamPelajaran];
+
+                let td = document.createElement("td");
+                if (pelajaran) {
+                  td.innerText = pelajaran["keterangan"];
+                  $(td).popover({
+                    title: pelajaran["keterangan"],
+                    content: pelajaran["nama"],
+                    trigger: "hover focus",
+                  });
+                } else {
+                  td.innerText = "-";
+                }
+                trPerHari.append(td);
+
+                $("#tbodyTableJumat").append(trPerHari);
+
+                // Waktu istirahat
+                let trIstirahat = document.createElement("tr");
+                let tdIstirahat = document.createElement("td");
+                let istirahatText = document.createElement("strong");
+                istirahatText.textContent = "ISTIRAHAT";
+                tdIstirahat.colSpan = 2;
+                tdIstirahat.append(istirahatText);
+                trIstirahat.append(tdIstirahat);
+                if (jamPelajaran == 3 || jamPelajaran == 7) {
+                  $("#tbodyTableJumat").append(trIstirahat);
+                }
+              }
+
+              $("#kelasName").text("Kelas " + kelas);
+              $("#jadwal").show();
             },
           });
         }
