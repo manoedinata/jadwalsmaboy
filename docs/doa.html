@@ -44,14 +44,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="./index.html"
+            <a class="nav-link" aria-current="page" href="./index.html"
               >Pelajaran</a
             >
             <a class="nav-link" aria-current="page" href="./guru.html">Guru</a>
             <a class="nav-link" aria-current="page" href="./lokasi_guru.html"
               >Lokasi Guru</a
             >
-            <a class="nav-link" aria-current="page" href="./doa.html">Doa</a>
+            <a class="nav-link active" aria-current="page" href="./doa.html"
+              >Doa</a
+            >
             <a
               class="nav-link disabled"
               href="./ujian.html"
@@ -65,25 +67,12 @@
 
     <div id="hero" class="bg-blue-dark text-white">
       <div class="px-4 py-5 text-center">
-        <h1 class="display-4 fw-bold">/jad·wal/</h1>
+        <h1 class="display-4 fw-bold">/doa/</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
-            Lihat jadwal pelajaran seluruh kelas beserta nama guru yang
-            mengajar.
+            Doa sebelum dan sesudah pelajaran, Dibiasakan untuk dibaca setiap
+            memulai dan mengakhiri pelajaran.
           </p>
-          <form action="" method="get">
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <select
-                name="kelas"
-                id="pilihKelas"
-                class="form-select form-select-lg"
-                aria-label="Pilih kelas"
-                disabled
-              >
-                <option value="" selected>Pilih kelas...</option>
-              </select>
-            </div>
-          </form>
         </div>
       </div>
 
@@ -108,82 +97,228 @@
       </svg>
     </div>
 
-    <div id="jadwal" style="display: none">
+    <div id="doa" class="mb-4">
       <div class="container">
-        <div class="d-flex mb-4">
-          <div class="ms-auto">
-            <button type="button" id="jadikanUtama" class="btn btn-success">
-              <i class="bi bi-star"></i>
-              Jadikan utama
-            </button>
-            <button type="button" id="printJadwal" class="btn btn-danger">
-              <i class="bi bi-printer-fill"></i>
-              Cetak jadwal
-            </button>
-          </div>
-        </div>
+        <div class="row">
+          <!-- Sebelum pelajaran -->
+          <div class="col-12 col-lg-6 mb-4">
+            <div class="card">
+              <div class="card-header">
+                <strong>Sebelum Pelajaran</strong>
+              </div>
+              <div class="card-body text-end">
+                <div id="doa-1">
+                  <h5 class="card-title amiri-bold">
+                    اَللَّهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِهٖ
+                    وَصَحْبِهٖ اَجْمَعِيْنَ
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >Allahumma Sholli ‘ala Sayyidina Muhammad wa’ala Alihi
+                      Washohbihi Ajma’in
+                    </i>
+                    <br />
+                    Artinya: ” Ya Allah berikanlah rahmat atas junjungan kita
+                    Nabi Muhammad dan atas keluarga beliau serta para sahabat
+                    beliau seluruhnya”.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-2">
+                  <h5 class="card-title amiri-bold">
+                    رَبِّ اشْرَحْ لِيْ صَدْرِيْۙ ۝٢٥ وَيَسِّرْ لِيْٓ اَمْرِيْۙ
+                    ۝٢٦ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِيْۙ ۝٢٧ يَفْقَهُوْا
+                    قَوْلِيْۖ ۝٢٨
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >rabbisyraḥ lī ṣadrī wa yassir lī amrī waḥlul 'uqdatam mil
+                      lisānī yafqahụ qaulī
+                    </i>
+                    <br />
+                    Artinya: "Ya Rabb-ku, lapangkanlah dadaku, dan ringankanlah
+                    segala urusanku, dan lepaskanlah kekakuan dari lidahku, agar
+                    mereka mengerti perkataanku." (QS. Thaha: 25-28).
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-3">
+                  <h5 class="card-title amiri-bold">
+                    رَضِيْتُ بِاللهِ رَبًّا وَبِالإِسْلَامِ دِيْنًا
+                    وَبِمُحَمَّدٍ نَبِيًّا وَرَسُوْلًا
+                  </h5>
+                  <p class="card-text">
+                    <i>
+                      Rodhitu billahi robba wabil islami dina wabi muhammadin
+                      nabiyya warasula.
+                    </i>
+                    <br />
+                    Artinya: Aku ridha Allah SWT sebagai Tuhanku, dan Islam
+                    sebagai agamaku, dan Muhammad SAW sebagai Nabi dan Rasulku.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-4">
+                  <h5 class="card-title amiri-bold">
+                    رَبِّ زِدْنِيْ عِلْمًا وَارْزُقْنِيْ فَهْمًا
+                  </h5>
+                  <p class="card-text">
+                    <i> Rabbii zidnii 'ilmaan warzuqnii fahmaan. </i>
+                    <br />
+                    Artinya: Ya Allah tambahkanlah kepadaku ilmu dan berikanlah
+                    aku pemahaman yang baik.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-5">
+                  <h5 class="card-title amiri-bold">
+                    رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا
+                    رَبَّيَانِي صَغِيرًا
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >Rabbighfirli waliwalidayya warhamhuma kamaa rabbayani
+                      saghira</i
+                    >
+                    <br />
+                    Artinya: Ya Allah ampunilah dosaku dan (dosa) kedua orang
+                    tuaku. Sayangilah keduanya sebagaimana keduanya menyayangiku
+                    di waktu kecil.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-6">
+                  <h5 class="card-title amiri-bold">
+                    اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي ، وَعَلِّمْنِي مَا
+                    يَنْفَعُنِي ، وَزِدْنِي عِلْمًا وَالْحَمْدُ لِلَّهِ عَلَى
+                    كُلِّ حَالٍ
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >Allahummanfa'ni bima 'allamtani wa 'allimni ma yanfa'uni
+                      wa zidni 'ilman walhamdulillahi 'ala kulli halin.</i
+                    >
+                    <br />
+                    Artinya: Ya Allah, berilah kemanfaatan atas segala ilmu yang
+                    Engkau ajarkan pada saya. Berilah saya ilmu yang bermanfaat
+                    dan tambahkanlah ilmu pada saya. Segala puji bagi Allah
+                    dalam setiap waktu.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-7">
+                  <h5 class="card-title amiri-bold">
+                    رَبَّنَاا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ
+                    حَسَنَةً وَقِنَا عَذَابَ النَّارِ
+                  </h5>
+                  <p class="card-text">
+                    <i>
+                      Rabbana aatina fiddunya hasanah wa fil-akhirati hasanah,
+                      wa qinaa adzabannaari.
+                    </i>
+                    <br />
 
-        <div id="jadwalContent">
-          <h2 id="kelasName" class="text-center mb-4"></h2>
-          <div class="row">
-            <div class="table-responsive col-lg-8 col-12 mb-4">
-              <table id="jadwalTable" class="table text-center">
-                <thead class="table-info">
-                  <tr>
-                    <th scope="col">Jam Ke-</th>
-                    <th scope="col">Senin</th>
-                    <th scope="col">Selasa</th>
-                    <th scope="col">Rabu</th>
-                    <th scope="col">Kamis</th>
-                  </tr>
-                </thead>
-                <tbody id="tbodyTable">
-                  <tr>
-                    <td colspan="6">Mengambil data...</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="table-responsive col-lg-4 col-12 mb-4">
-              <table id="jadwalTableJumat" class="table text-center">
-                <thead class="table-success">
-                  <tr>
-                    <th scope="col">Jam Ke-</th>
-                    <th scope="col">Jumat</th>
-                  </tr>
-                </thead>
-                <tbody id="tbodyTableJumat">
-                  <tr>
-                    <td colspan="1">Mengambil data...</td>
-                  </tr>
-                </tbody>
-              </table>
+                    Artinya: Ya Tuhan kami, berikanlah kepada kami kebaikan di
+                    dunia dan di akhirat, serta peliharalah kami dari siksa
+                    neraka.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          <!-- Sesudah pelajaran -->
+          <div class="col-12 col-lg-6 mb-4">
+            <div class="card">
+              <div class="card-header">
+                <strong>Sesudah Pelajaran</strong>
+              </div>
+              <div class="card-body text-end">
+                <div id="doa-1">
+                  <h5 class="card-title amiri-bold">
+                    اللَّهُمَّ أَرِنَا الْحَقَّ حَقًّا وَارْزُقْنَا اتِّبَاعَهُ،
+                    وَأَرِنَا الْبَاطِلَ بَاطِلًا وَارْزُقْنَا اجْتِنَابَهُ،
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >Allohumma arinal haqqo haqqon warzuqnat tibaa'ahu, wa
+                      arinal bathila bathilan warzuqnaj tinaabahu.
+                    </i>
+                    <br />
+                    Artinya: "Ya Allah tunjukkanlah kepada kami yang benar itu
+                    benar dan bantulah kami untuk mengikutinya, dan tunjukkanlah
+                    kepada kami yang batil itu batil dan bantulah kami untuk
+                    menjauhinya.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-2">
+                  <h5 class="card-title amiri-bold">
+                    وَالْعَصْرِۙ ۝١ اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍۙ ۝٢ اِلَّا
+                    الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ وَتَوَاصَوْا
+                    بِالْحَقِّ ەۙ وَتَوَاصَوْا بِالصَّبْرِࣖ ۝٣
+                  </h5>
+                  <p class="card-text">
+                    <i
+                      >wal-'ashr innal-insâna lafî khusr, illalladzîna âmanû wa
+                      'amilush-shâliḫâti wa tawâshau bil-ḫaqqi wa tawâshau
+                      bish-shabr
+                    </i>
+                    <br />
+                    Artinya: "Demi masa. Sungguh, manusia berada dalam kerugian,
+                    kecuali orang-orang yang beriman dan mengerjakan kebajikan
+                    sert saling menasehati untuk kebenaran dan saling menasehati
+                    untuk kesabaran" (QS. Al Ashr: 1-3).
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-3">
+                  <h5 class="card-title amiri-bold">
+                    اللَّهُمَّ ارْزُقْنَا فَهْمَ النَّبِيِّيْنَ وَحِفْظَ
+                    اْلمَرْسَلِيْنَ وَإِلْهَامَ الْمَلَائِكَةِ الْمُقَرَّبِيْنَ،
+                    بِرَحْمَتِكَ يَاأَرْحَمَ الرَّاحِمِيْنَ
+                  </h5>
+                  <p class="card-text">
+                    <i>
+                      Allahummarzuqna fahman nabiyyuna wa hifdhal mursalina wa
+                      ilhamal malaikatil muqarrabin birahmatika ya arhamar
+                      rahimina.
+                    </i>
+                    <br />
+                    Artinya: Ya Allah, anugerahilah kami pemahaman para nabi,
+                    hafalan para rasul, dan ilhamnya para malaikat yang dekat
+                    (dengan-Mu), sebab kasih sayang-Mu, wahai zat yang Maha
+                    Pengasih.
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div id="doa-4">
+                  <h5 class="card-title amiri-bold">
+                    رَبَّنَاا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ
+                    حَسَنَةً وَقِنَا عَذَابَ النَّارِ
+                  </h5>
+                  <p class="card-text">
+                    <i>
+                      Rabbana aatina fiddunya hasanah wa fil-akhirati hasanah,
+                      wa qinaa adzabannaari.
+                    </i>
+                    <br />
 
-        <div class="mb-4">
-          <div class="alert alert-info" role="alert">
-            <h4><i class="bi bi-info-circle"></i> Catatan</h4>
-            <ul>
-              <li>
-                Data jadwal diambil dari dokumen jadwal terbaru, berlaku mulai
-                Senin, 29 Juli 2024. Data ini merupakan revisi dari data
-                sebelumnya, dan kelihatannya banyak data yang dirombak.
-              </li>
-              <li>
-                Terdapat beberapa guru yang mengajar 2 mata pelajaran sekaligus.
-                Namun, mata pelajaran yang diajarkan
-                <strong>tetap seperti penjurusan kelas</strong>. Sebagai contoh,
-                jika ada guru yang mengajar
-                <strong>Matematika & Biologi</strong>, pada kelas IPS tidak akan
-                diajarkan Biologi, melainkan <u>hanya Matematika</u>.
-                Selebihnya, silahkan konfirmasi ke guru tersebut.
-              </li>
-              <li>
-                Khusus kelas X, pelajaran berakhir pada jam ke-8 di hari Jumat.
-              </li>
-            </ul>
+                    Artinya: Ya Tuhan kami, berikanlah kepada kami kebaikan di
+                    dunia dan di akhirat, serta peliharalah kami dari siksa
+                    neraka.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
