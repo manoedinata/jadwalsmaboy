@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daftar Guru</title>
+    <title>Donasi</title>
 
     <!-- Bootstrap -->
     <link
@@ -43,14 +43,12 @@
             <a class="nav-link" aria-current="page" href="./index.html"
               >Pelajaran</a
             >
-            <a class="nav-link active" aria-current="page" href="./guru.html"
-              >Guru</a
-            >
+            <a class="nav-link" aria-current="page" href="./guru.html">Guru</a>
             <a class="nav-link" aria-current="page" href="./lokasi_guru.html"
               >Lokasi Guru</a
             >
             <a class="nav-link" aria-current="page" href="./doa.html">Doa</a>
-            <a class="nav-link" aria-current="page" href="./donasi.html"
+            <a class="nav-link active" aria-current="page" href="./donasi.html"
               >Donasi</a
             >
           </div>
@@ -60,9 +58,12 @@
 
     <div id="hero" class="bg-blue-dark text-white">
       <div class="px-4 py-5 text-center">
-        <h1 class="display-4 fw-bold">/gu·ru/</h1>
+        <h1 class="display-4 fw-bold">/do·na·si/</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Lihat daftar guru di SMAN 1 Boyolangu.</p>
+          <p class="lead mb-4">
+            Dukung pengembangan website jadwal secara finansial dengan
+            berdonasi.
+          </p>
         </div>
       </div>
 
@@ -87,31 +88,61 @@
       </svg>
     </div>
 
-    <div id="guru">
+    <div id="donasi">
       <div class="container">
-        <div class="my-3">
-          <input
-            type="text"
-            class="search form-control"
-            placeholder="Cari guru..."
-          />
-        </div>
-
-        <div class="table-responsive">
-          <table id="jadwalTable" class="table text-center table-striped">
-            <thead class="table-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nama</th>
-                <th scope="col">Keterangan / Mata Pelajaran</th>
-              </tr>
-            </thead>
-            <tbody id="tbodyTable" class="list">
-              <tr>
-                <td colspan="3"><i>Mengambil data...</i></td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="row">
+          <div class="col-lg-8 fs-5 mb-4">
+            <p>
+              Layanan website & notifikasi jadwal akan tersedia
+              <strong>100% gratis</strong> untuk siswa SMABOY...
+            </p>
+            <p>
+              ...namun jika merasa terbantu,
+              <strong
+                >ayo donasi untuk keberlanjutan dan pengembangan layanan</strong
+              >!
+            </p>
+            <p>
+              Kedua layanan ini dikelola oleh saya sendiri, dengan akses data
+              yang diberi oleh pihak sekolah. Mengelola kedua layanan ini cukup
+              <u>melelahkan dan menyita waktu</u>, karena bagaimanapun caranya,
+              layanan ini harus <strong>stand-by 24 jam</strong>, kapan saja dan
+              dimana saja.
+            </p>
+            <p>
+              Layanan ini akan tersedia secara gratis dan bebas selama 1 tahun
+              kedepan (hingga saya lulus). <i>In the meantime</i>, jika merasa
+              tertolong dengan apa yang saya buat, saya meminta sebagian kecil
+              uang saku teman-teman semua untuk berdonasi.
+            </p>
+            <p>Donasi yang telah terkumpul akan dialokasikan untuk:</p>
+            <ol>
+              <li>
+                <strong>Biaya server</strong> untuk menjalankan web jadwal & bot
+                WhatsApp
+              </li>
+              <li>
+                <strong>Biaya API</strong> untuk mengambil data tambahan seperti
+                waktu adzan dan quotes
+              </li>
+              <li>
+                <strong>Biaya pengembangan</strong> dan
+                <strong>perawatan</strong> (maintenance) layanan
+              </li>
+            </ol>
+            <p>
+              Terima kasih banyak! Semoga kebaikan teman-teman dibalas setimpal.
+              😊🙏
+            </p>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-header"><strong>QRIS</strong></div>
+              <div class="card-body">
+                <img src="QRIS.png" class="card-img" alt="QRIS" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
