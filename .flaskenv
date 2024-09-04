@@ -1,0 +1,2 @@
+FLASK_APP=sendwa
+FLASK_DEBUG=1
