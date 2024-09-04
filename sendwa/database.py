@@ -13,5 +13,11 @@ class Siswa(db.Model):
     kelas = db.Column(db.String(100), nullable=False)
     nomor = db.Column(db.String(100), nullable=False)
 
+    @property
+    def serialize(self):
+        """Return object data in easily serializable format"""
+        """https://stackoverflow.com/a/11884806"""
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
     def __repr__(self):
         return f'<Student {self.nama}>'

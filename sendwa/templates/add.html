@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="{{ url_for('routes.siswa_add' ) }}" method="post">
+      <label for="nama">Nama siswa</label>
+      <input type="text" name="nama" id="" /> <br />
+      <label for="panggilan">Panggilan kustom siswa</label>
+      <input type="text" name="panggilan" id="" /> <br />
+      <label for="kelas">Kelas siswa</label>
+      <input type="text" name="kelas" id="" /> <br />
+      <label for="nomor">Nomor siswa</label>
+      <input type="tel" name="nomor" id="" /> <br />
+      <br />
+      <button type="submit">Tambah siswa</button>
+    </form>
+  </body>
+</html>
