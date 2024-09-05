@@ -1,9 +1,10 @@
 import requests
 from datetime import datetime, timedelta
+from typing import Optional
 
 from .config import BOT_TOKEN
+from .database import db
 from .database import Siswa
-from .utils import *
 
 FONTE_WHATSAPP_SEND_API = "https://api.fonnte.com/send"
 
@@ -11,6 +12,22 @@ FONTE_WHATSAPP_SEND_API = "https://api.fonnte.com/send"
 hariIni = datetime.today()
 besok = hariIni + timedelta(days=1)
 HARI = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"] # TODO: Gunakan array yang lebih baik
+
+DATA_URL = "https://jadwal.sman1boyolangu.sch.id/kelas/"
+
+def getKelasInfo(url: str = DATA_URL + "info.json") -> dict:
+    req = requests.get(url)
+    return req.json()
+
+def getJadwalData(kelas: str) -> dict:
+    req = requests.get(DATA_URL + f"{kelas}.json")
+    return req.json()
+
+def parseJadwal(data: list, tanggal: int) -> Optional[dict]:
+    if tanggal > len(data) - 1:
+        return
+
+    return data[tanggal]
 
 def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHATSAPP_SEND_API):
     req = requests.post(url, headers={
@@ -22,6 +39,29 @@ def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHAT
     })
 
     return req.json()
+
+def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
+    siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
+    db.session.add(siswa)
+    db.session.commit()
+
+    greetingTexts = ""
+    greetingTexts += f"Halo, {nama} 👋 \n"
+    greetingTexts += "\n"
+    greetingTexts += "Terima kasih sudah mendaftar layanan jadwal otomatis. "
+    greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
+    greetingTexts += "Silahkan di-save jika mau. \n"
+    greetingTexts += "\n"
+    greetingTexts += "Layanan akan dimulai secepatnya. \n"
+    greetingTexts += "\n"
+    greetingTexts += f"Nama: *{nama}* \n"
+    if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
+    greetingTexts += f"Kelas: *{kelas}* \n"
+
+    send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+    print(send)
+
+    return siswa.serialize
 
 def do_send():
     # Cek jika besok libur
