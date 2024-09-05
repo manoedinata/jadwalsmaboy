@@ -4,8 +4,10 @@ from flask import request
 from flask import redirect
 from flask import url_for
 
+from .config import BOT_TOKEN
 from .database import db
 from .database import Siswa
+from .whatsapp import sendMessage
 from .whatsapp import do_send
 
 routes = Blueprint("routes", __name__)
@@ -31,6 +33,20 @@ def siswa_add():
     siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
     db.session.add(siswa)
     db.session.commit()
+
+    greetingTexts = ""
+    greetingTexts += f"Halo, {nama} 👋 \n"
+    greetingTexts += "\n"
+    greetingTexts += "Terima kasih sudah mendaftar layanan jadwal otomatis. "
+    greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
+    greetingTexts += "Silahkan di-save jika mau. \n"
+    greetingTexts += "\n"
+    greetingTexts += f"Nama: *{nama}* \n"
+    if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
+    greetingTexts += f"Kelas: *{kelas}* \n"
+
+    send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+    print(send)
 
     return redirect(url_for("routes.siswa"))
 
