@@ -41,6 +41,8 @@ def siswa_add():
     greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
     greetingTexts += "Silahkan di-save jika mau. \n"
     greetingTexts += "\n"
+    greetingTexts += "Layanan akan dimulai secepatnya nanti sore. \n"
+    greetingTexts += "\n"
     greetingTexts += f"Nama: *{nama}* \n"
     if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
     greetingTexts += f"Kelas: *{kelas}* \n"
