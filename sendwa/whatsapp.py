@@ -41,6 +41,11 @@ def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHAT
     return req.json()
 
 def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
+    siswa = Siswa.query.filter_by(nomor=nomor).first()
+    if siswa:
+        print("Siswa sudah ada")
+        return
+
     siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
     db.session.add(siswa)
     db.session.commit()
