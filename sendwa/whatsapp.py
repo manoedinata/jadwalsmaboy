@@ -44,7 +44,7 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
     siswa = Siswa.query.filter_by(nomor=nomor).first()
     if siswa:
         print("Siswa sudah ada")
-        return
+        return {"error": "Siswa sudah ada"}, 400
 
     siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
     db.session.add(siswa)

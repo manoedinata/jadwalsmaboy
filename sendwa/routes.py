@@ -3,6 +3,7 @@ from flask import render_template
 from flask import request
 from flask import redirect
 from flask import url_for
+from flask import jsonify
 from werkzeug.exceptions import BadRequest
 
 from .database import Siswa
@@ -24,19 +25,26 @@ def siswa_add():
     if request.method == "GET":
         return render_template("add.html")
 
+    is_json = False
+
     try:
         data = request.get_json()
         nama = data.get("nama")
         panggilan = data.get("panggilan")
         kelas = data.get("kelas")
         nomor = data.get("nomor")
+        is_json = True
     except (TypeError, BadRequest, KeyError):
         nama = request.form.get("nama")
         panggilan = request.form.get("panggilan")
         kelas = request.form.get("kelas")
         nomor = request.form.get("nomor")
 
-    addSiswa(nama, panggilan, kelas, nomor)
+    try:
+        siswa = addSiswa(nama, panggilan, kelas, nomor)
+        if is_json: return siswa
+    except Exception as e:
+        if is_json: return jsonify({"error": str(e)}), 500
 
     return redirect(url_for("routes.siswa"))
 
