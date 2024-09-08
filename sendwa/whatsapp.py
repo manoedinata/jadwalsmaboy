@@ -5,6 +5,7 @@ from typing import Optional
 from .config import BOT_TOKEN
 from .database import db
 from .database import Siswa
+from .utils import getRandomGreet
 
 FONTE_WHATSAPP_SEND_API = "https://api.fonnte.com/send"
 
@@ -50,13 +51,11 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
     db.session.add(siswa)
 
     greetingTexts = ""
-    greetingTexts += f"Halo, {nama} 👋 \n"
+    greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
     greetingTexts += "\n"
-    greetingTexts += "Terima kasih sudah mendaftar layanan jadwal otomatis. "
+    greetingTexts += "Kamu sudah mendaftar layanan jadwal otomatis. "
     greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
-    greetingTexts += "Silahkan di-save jika mau. \n"
-    greetingTexts += "\n"
-    greetingTexts += "Layanan akan dimulai secepatnya. \n"
+    greetingTexts += "Silahkan di-save jika ingin. \n"
     greetingTexts += "\n"
     greetingTexts += f"Nama: *{nama}* \n"
     if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
@@ -92,7 +91,7 @@ def do_send():
         print(s.nama)
         # Initialize WhatsApp message text
         whatsappText = ""
-        whatsappText += f"*Semangat, {s.panggilan if s.panggilan else s.nama}! 🔥* \n"
+        whatsappText += f"*{getRandomGreet()}, {s.panggilan if s.panggilan else s.nama}! 🔥* \n"
         whatsappText += "\n"
         whatsappText += f"Jadwal Pelajaran untuk kelas {s.kelas} \n"
         whatsappText += "\n"
