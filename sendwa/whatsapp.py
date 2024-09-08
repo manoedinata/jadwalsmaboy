@@ -38,7 +38,7 @@ def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHAT
         "typing": True
     })
 
-    return req.json()
+    return req
 
 def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
     siswa = Siswa.query.filter_by(nomor=nomor).first()
@@ -48,7 +48,6 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
 
     siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
     db.session.add(siswa)
-    db.session.commit()
 
     greetingTexts = ""
     greetingTexts += f"Halo, {nama} 👋 \n"
@@ -63,9 +62,18 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
     if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
     greetingTexts += f"Kelas: *{kelas}* \n"
 
-    send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
-    print(send)
+    try:
+        send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+        if not send.ok:
+            db.session.rollback()
+            return
 
+        print(send.json())
+    except Exception as e:
+        db.session.rollback()
+        return
+
+    db.session.commit()
     return siswa.serialize
 
 def do_send():
