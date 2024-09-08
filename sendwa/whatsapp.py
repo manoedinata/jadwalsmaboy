@@ -6,7 +6,7 @@ import time, random
 from .config import BOT_TOKEN
 from .database import db
 from .database import Siswa
-from .utils import getRandomGreet
+from .utils import getRandomGreet, getRandomEmoji
 
 WAHA_API = "http://arthur.manoedinata.com:27004/api"
 
@@ -156,7 +156,7 @@ def do_send():
 
         # Initialize WhatsApp message text
         whatsappText = ""
-        whatsappText += f"*{getRandomGreet()}, {s.panggilan if s.panggilan else s.nama}! 🔥* \n"
+        whatsappText += f"*{getRandomGreet()}, {s.panggilan if s.panggilan else s.nama}! {getRandomEmoji()}* \n"
         whatsappText += "\n"
         whatsappText += f"Jadwal Pelajaran untuk kelas {s.kelas} \n"
         whatsappText += "\n"
