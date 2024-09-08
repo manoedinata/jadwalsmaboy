@@ -1,13 +1,14 @@
 import requests
 from datetime import datetime, timedelta
 from typing import Optional
+import time, random
 
 from .config import BOT_TOKEN
 from .database import db
 from .database import Siswa
 from .utils import getRandomGreet
 
-FONTE_WHATSAPP_SEND_API = "https://api.fonnte.com/send"
+WAHA_API = "http://arthur.manoedinata.com:27004/api"
 
 # TODO: Gunakan timezone Asia/Jakarta
 hariIni = datetime.today()
@@ -15,6 +16,43 @@ besok = hariIni + timedelta(days=1)
 HARI = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"] # TODO: Gunakan array yang lebih baik
 
 DATA_URL = "https://jadwal.sman1boyolangu.sch.id/kelas/"
+
+def setTyping(nomor: str, typing: bool = True) -> bool:
+    if typing:
+        typingUrl = WAHA_API + "/startTyping"
+    else:
+        typingUrl = WAHA_API + "/stopTyping"
+
+    req = requests.post(typingUrl, json={
+        "chatId": nomor + "@c.us",
+        "session": "default"
+    })
+
+    print(req.json())
+    return True
+
+def sendSeenToChat(nomor: str, messageId: str):
+    req = requests.post(WAHA_API + "/sendSeen", json={
+        "chatId": nomor + "@c.us",
+        "messageId": messageId,
+        "participant": None,
+        "session": "default"
+    })
+
+    return req.ok
+
+def checkIfSiswaHasMessage(nomor: str) -> bool:
+    req = requests.get(WAHA_API + f"/default/chats/{nomor + '@c.us'}/messages")
+
+    if not req.ok: return False
+    if len(req.json()) < 1: return False
+
+    # Send seen
+    messageId = req.json()[-1]["id"]
+    sendSeen = sendSeenToChat(nomor, messageId)
+    # if not sendSeen: return False
+
+    return True
 
 def getKelasInfo(url: str = DATA_URL + "info.json") -> dict:
     req = requests.get(url)
@@ -30,18 +68,22 @@ def parseJadwal(data: list, tanggal: int) -> Optional[dict]:
 
     return data[tanggal]
 
-def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHATSAPP_SEND_API):
-    req = requests.post(url, headers={
-        "Authorization": bot_token
-    }, json={
-        "target": number,
-        "message": message,
-        "typing": True
+def sendMessage(message: str, number: str, bot_token: str, url: str = WAHA_API + "/sendText"):
+    req = requests.post(url, json={
+        "chatId": number + "@c.us",
+        "reply_to": None,
+        "text": message,
+        "session": "default"
     })
 
+    print(req.json())
     return req
 
 def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int, greetSiswa: bool = True):
+    # Cek apakah siswa pernah chat duluan
+    siswa = checkIfSiswaHasMessage(nomor)
+    if not siswa: return {"error": "Siswa belum pernah chat bot"}, 400
+
     siswa = Siswa.query.filter_by(nomor=nomor).first()
     if siswa:
         print("Siswa sudah ada")
@@ -51,6 +93,9 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int, greetSiswa: bool
     db.session.add(siswa)
 
     if greetSiswa:
+        # Typing: ON
+        setTyping(nomor, True)
+
         greetingTexts = ""
         greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
         greetingTexts += "\n"
@@ -61,15 +106,21 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int, greetSiswa: bool
         greetingTexts += f"Nama: *{nama}* \n"
         if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
         greetingTexts += f"Kelas: *{kelas}* \n"
+        print(greetingTexts)
+
+        # Typing: OFF
+        setTyping(nomor, False)
 
         try:
             send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+            print(send.json())
             if not send.ok:
                 db.session.rollback()
                 return
 
             print(send.json())
         except Exception as e:
+            print(str(e))
             db.session.rollback()
             return
 
@@ -90,6 +141,14 @@ def do_send():
 
     for s in siswa:
         print(s.nama)
+
+        # Cek apakah siswa pernah chat duluan
+        cekSiswa = checkIfSiswaHasMessage(s.nomor)
+        if not cekSiswa: continue
+
+        # Typing: ON
+        setTyping(s.nomor, True)
+
         # Initialize WhatsApp message text
         whatsappText = ""
         whatsappText += f"*{getRandomGreet()}, {s.panggilan if s.panggilan else s.nama}! 🔥* \n"
@@ -114,7 +173,13 @@ def do_send():
             sendText += f"Jam ke-{jam}: *{mapel}* \n"
         print(sendText)
 
+        # Typing: OFF
+        setTyping(s.nomor, False)
+
         send = sendMessage(sendText, s.nomor, BOT_TOKEN)
         print(send)
+
+        # TODO: Ini harusnya async. Klo synchronous bakalan lemot
+        time.sleep(random.randint(15, 30))
 
     return "send jadwal"

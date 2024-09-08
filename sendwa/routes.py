@@ -26,16 +26,15 @@ def siswa_add():
         return render_template("add.html")
 
     is_json = False
-
-    try:
-        data = request.get_json()
+    data = request.get_json(silent=True)
+    if data:
         nama = data.get("nama")
         panggilan = data.get("panggilan")
         kelas = data.get("kelas")
         nomor = data.get("nomor")
         greetSiswa = data.get("greetSiswa", True)
         is_json = True
-    except (TypeError, BadRequest, KeyError):
+    else:
         nama = request.form.get("nama")
         panggilan = request.form.get("panggilan")
         kelas = request.form.get("kelas")
