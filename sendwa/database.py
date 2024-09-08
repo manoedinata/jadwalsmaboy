@@ -12,6 +12,7 @@ class Siswa(db.Model):
     panggilan = db.Column(db.String(1000), nullable=True)
     kelas = db.Column(db.String(100), nullable=False)
     nomor = db.Column(db.String(100), nullable=False)
+    last_sent = db.Column(db.DateTime, nullable=True)
 
     @property
     def serialize(self):

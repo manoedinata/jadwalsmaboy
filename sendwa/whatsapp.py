@@ -146,6 +146,11 @@ def do_send():
         cekSiswa = checkIfSiswaHasMessage(s.nomor)
         if not cekSiswa: continue
 
+        # Cek apakah pesan sdh dikirim sebelumnya
+        if s.last_sent and (s.last_sent.date() == datetime.today().date()):
+            print("Jadwal telah terkirim sebelumnya")
+            continue
+
         # Typing: ON
         setTyping(s.nomor, True)
 
@@ -178,6 +183,11 @@ def do_send():
 
         send = sendMessage(sendText, s.nomor, BOT_TOKEN)
         print(send)
+
+        # Update last sent
+        s.last_sent = datetime.now()
+        db.session.add(s)
+        db.session.commit()
 
         # TODO: Ini harusnya async. Klo synchronous bakalan lemot
         time.sleep(random.randint(60, 120))
