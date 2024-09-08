@@ -180,6 +180,6 @@ def do_send():
         print(send)
 
         # TODO: Ini harusnya async. Klo synchronous bakalan lemot
-        time.sleep(random.randint(15, 30))
+        time.sleep(random.randint(60, 120))
 
     return "send jadwal"
