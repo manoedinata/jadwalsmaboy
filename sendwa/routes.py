@@ -33,15 +33,17 @@ def siswa_add():
         panggilan = data.get("panggilan")
         kelas = data.get("kelas")
         nomor = data.get("nomor")
+        greetSiswa = data.get("greetSiswa", True)
         is_json = True
     except (TypeError, BadRequest, KeyError):
         nama = request.form.get("nama")
         panggilan = request.form.get("panggilan")
         kelas = request.form.get("kelas")
         nomor = request.form.get("nomor")
+        greetSiswa = True
 
     try:
-        siswa = addSiswa(nama, panggilan, kelas, nomor)
+        siswa = addSiswa(nama, panggilan, kelas, nomor, greetSiswa)
         if is_json: return siswa
     except Exception as e:
         if is_json: return jsonify({"error": str(e)}), 500

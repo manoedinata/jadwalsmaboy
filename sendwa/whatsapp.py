@@ -41,7 +41,7 @@ def sendMessage(message: str, number: str, bot_token: str, url: str = FONTE_WHAT
 
     return req
 
-def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
+def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int, greetSiswa: bool = True):
     siswa = Siswa.query.filter_by(nomor=nomor).first()
     if siswa:
         print("Siswa sudah ada")
@@ -50,27 +50,28 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int):
     siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
     db.session.add(siswa)
 
-    greetingTexts = ""
-    greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
-    greetingTexts += "\n"
-    greetingTexts += "Kamu sudah mendaftar layanan jadwal otomatis. "
-    greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
-    greetingTexts += "Silahkan di-save jika ingin. \n"
-    greetingTexts += "\n"
-    greetingTexts += f"Nama: *{nama}* \n"
-    if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
-    greetingTexts += f"Kelas: *{kelas}* \n"
+    if greetSiswa:
+        greetingTexts = ""
+        greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
+        greetingTexts += "\n"
+        greetingTexts += "Kamu sudah mendaftar layanan jadwal otomatis. "
+        greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
+        greetingTexts += "Silahkan di-save jika ingin. \n"
+        greetingTexts += "\n"
+        greetingTexts += f"Nama: *{nama}* \n"
+        if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
+        greetingTexts += f"Kelas: *{kelas}* \n"
 
-    try:
-        send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
-        if not send.ok:
+        try:
+            send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+            if not send.ok:
+                db.session.rollback()
+                return
+
+            print(send.json())
+        except Exception as e:
             db.session.rollback()
             return
-
-        print(send.json())
-    except Exception as e:
-        db.session.rollback()
-        return
 
     db.session.commit()
     return siswa.serialize
