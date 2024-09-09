@@ -32,7 +32,7 @@
           <td>{{ s.panggilan if s.panggilan else "-" }}</td>
           <td>{{ s.kelas }}</td>
           <td>{{ s.nomor }}</td>
-          <td>{{ s.last_sent }}</td>
+          <td>{{ s.last_sent if s.last_sent else "-" }}</td>
         </tr>
         {% else %}
         <tr>
