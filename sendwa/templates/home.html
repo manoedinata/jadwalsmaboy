@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block header %}
+
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">Hello, World!</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Mau cari apa?</p>
+  </div>
+</div>
+
+{% endblock %} {% block content %}
+
+<div class="container text-end">
+  <a
+    href="{{ url_for('routes.siswa') }}"
+    role="button"
+    class="btn btn-primary btn-lg"
+    >Daftar Siswa</a
+  >
+  <button type="button" class="btn btn-secondary btn-lg" disabled>
+    Tambah Siswa
+  </button>
+</div>
+
+{% endblock %}

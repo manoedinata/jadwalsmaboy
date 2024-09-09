@@ -1,0 +1,45 @@
+{% extends 'base.html' %} {% block header %}
+
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">Daftar Siswa</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      List siswa yang terdaftar & aktif untuk layanan pengingat jadwal.
+    </p>
+  </div>
+</div>
+
+{% endblock %} {% block content %}
+
+<div class="container">
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nama</th>
+        <th scope="col">Panggilan</th>
+        <th scope="col">Kelas</th>
+        <th scope="col">Nomor</th>
+        <th scope="col">Terakhir Dikirim</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for s in siswa %}
+      <tr>
+        <th>{{ loop.index }}</th>
+        <td>{{ s.nama }}</td>
+        <td>{{ s.panggilan if s.panggilan else "-" }}</td>
+        <td>{{ s.kelas }}</td>
+        <td>{{ s.nomor }}</td>
+        <td>{{ s.last_sent }}</td>
+      </tr>
+      {% else %}
+      <tr>
+        <td colspan="6" class="text-center"><i>Tidak ada siswa!</i></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

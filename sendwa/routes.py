@@ -14,11 +14,11 @@ routes = Blueprint("routes", __name__)
 
 @routes.get("/")
 def home():
-    return "Hello, World!"
+    return render_template("home.html")
 
 @routes.get("/siswa")
 def siswa():
-    return [s.serialize for s in Siswa.query.all()]
+    return render_template("siswa.html", siswa=[s.serialize for s in Siswa.query.all()])
 
 @routes.route("/siswa/add", methods=["GET", "POST"])
 def siswa_add():
