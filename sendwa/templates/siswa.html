@@ -12,34 +12,36 @@
 {% endblock %} {% block content %}
 
 <div class="container">
-  <table class="table">
-    <thead class="table-dark">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Nama</th>
-        <th scope="col">Panggilan</th>
-        <th scope="col">Kelas</th>
-        <th scope="col">Nomor</th>
-        <th scope="col">Terakhir Dikirim</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for s in siswa %}
-      <tr>
-        <th>{{ loop.index }}</th>
-        <td>{{ s.nama }}</td>
-        <td>{{ s.panggilan if s.panggilan else "-" }}</td>
-        <td>{{ s.kelas }}</td>
-        <td>{{ s.nomor }}</td>
-        <td>{{ s.last_sent }}</td>
-      </tr>
-      {% else %}
-      <tr>
-        <td colspan="6" class="text-center"><i>Tidak ada siswa!</i></td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  <div class="table-responsive">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nama</th>
+          <th scope="col">Panggilan</th>
+          <th scope="col">Kelas</th>
+          <th scope="col">Nomor</th>
+          <th scope="col">Terakhir Dikirim</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in siswa %}
+        <tr>
+          <th>{{ loop.index }}</th>
+          <td>{{ s.nama }}</td>
+          <td>{{ s.panggilan if s.panggilan else "-" }}</td>
+          <td>{{ s.kelas }}</td>
+          <td>{{ s.nomor }}</td>
+          <td>{{ s.last_sent }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="6" class="text-center"><i>Tidak ada siswa!</i></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
 
 {% endblock %}
