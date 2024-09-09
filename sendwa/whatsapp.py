@@ -8,7 +8,7 @@ from .database import db
 from .database import Siswa
 from .utils import getRandomGreet, getRandomEmoji
 
-WAHA_API = "http://arthur.manoedinata.com:27004/api"
+WAHA_API = "https://waha.manoedinata.com/api"
 
 # TODO: Gunakan timezone Asia/Jakarta
 hariIni = datetime.today()
