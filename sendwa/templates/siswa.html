@@ -21,6 +21,7 @@
           <th scope="col">Panggilan</th>
           <th scope="col">Kelas</th>
           <th scope="col">Nomor</th>
+          <th scope="col">Status</th>
           <th scope="col">Terakhir Dikirim</th>
         </tr>
       </thead>
@@ -32,11 +33,12 @@
           <td>{{ s.panggilan if s.panggilan else "-" }}</td>
           <td>{{ s.kelas }}</td>
           <td>{{ s.nomor }}</td>
+          <td>{{ "✅" if s.last_sent else "❌" }}</td>
           <td>{{ s.last_sent if s.last_sent else "-" }}</td>
         </tr>
         {% else %}
         <tr>
-          <td colspan="6" class="text-center"><i>Tidak ada siswa!</i></td>
+          <td colspan="7" class="text-center"><i>Tidak ada siswa!</i></td>
         </tr>
         {% endfor %}
       </tbody>
