@@ -85,44 +85,48 @@ def addSiswa(nama: str, panggilan: str, kelas: str, nomor: int, greetSiswa: bool
     if not siswa: return {"error": "Siswa belum pernah chat bot"}, 400
 
     siswa = Siswa.query.filter_by(nomor=nomor).first()
-    if siswa:
-        print("Siswa sudah ada")
-        return {"error": "Siswa sudah ada"}, 400
+    if not siswa:
+        siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
+        db.session.add(siswa)
 
-    siswa = Siswa(nama=nama, panggilan=panggilan, kelas=kelas, nomor=nomor)
-    db.session.add(siswa)
+        if greetSiswa:
+            # Typing: ON
+            setTyping(nomor, True)
 
-    if greetSiswa:
-        # Typing: ON
-        setTyping(nomor, True)
+            greetingTexts = ""
+            greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
+            greetingTexts += "\n"
+            greetingTexts += "Kamu sudah mendaftar layanan jadwal otomatis. "
+            greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
+            greetingTexts += "Silahkan di-save jika ingin. \n"
+            greetingTexts += "\n"
+            greetingTexts += f"Nama: *{nama}* \n"
+            if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
+            greetingTexts += f"Kelas: *{kelas}* \n"
+            print(greetingTexts)
 
-        greetingTexts = ""
-        greetingTexts += f"{getRandomGreet()}, {nama} 👋 \n"
-        greetingTexts += "\n"
-        greetingTexts += "Kamu sudah mendaftar layanan jadwal otomatis. "
-        greetingTexts += "Notifikasi jadwal akan dikirimkan ke kamu melalui nomor ini. "
-        greetingTexts += "Silahkan di-save jika ingin. \n"
-        greetingTexts += "\n"
-        greetingTexts += f"Nama: *{nama}* \n"
-        if panggilan: greetingTexts += f"Panggilan kustom: *{panggilan}* \n"
-        greetingTexts += f"Kelas: *{kelas}* \n"
-        print(greetingTexts)
+            # Typing: OFF
+            setTyping(nomor, False)
 
-        # Typing: OFF
-        setTyping(nomor, False)
+            try:
+                send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
+                print(send.json())
+                if not send.ok:
+                    db.session.rollback()
+                    return
 
-        try:
-            send = sendMessage(greetingTexts, nomor, BOT_TOKEN)
-            print(send.json())
-            if not send.ok:
+                print(send.json())
+            except Exception as e:
+                print(str(e))
                 db.session.rollback()
                 return
-
-            print(send.json())
-        except Exception as e:
-            print(str(e))
-            db.session.rollback()
-            return
+    else:
+        # Update siswa
+        siswa.nama = nama
+        siswa.panggilan = panggilan
+        siswa.kelas = kelas
+        siswa.nomor = nomor
+        db.session.add(siswa)
 
     db.session.commit()
     return siswa.serialize
