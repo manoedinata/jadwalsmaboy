@@ -59,7 +59,7 @@
 
     <div id="hero" class="bg-blue-dark text-white">
       <div class="px-4 py-5 text-center">
-        <h1 class="display-4 fw-bold">Jadwal Ujian</h1>
+        <h1 class="display-4 fw-bold">/uji·an/</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
             Lihat jadwal <u>Penilaian Sumatif Semester Gasal</u> untuk kelas X
@@ -73,8 +73,19 @@
             >
               <option value="" selected>Pilih kelas...</option>
               <option value="X">Kelas X</option>
-              <option value="XI-MIPA">Kelas XI-MIPA (XI-1 sampai XI-8)</option>
-              <option value="XI-IPS">Kelas XI-IPS (XI-9 sampai XI-12)</option>
+              <optgroup label="Kelas XI">
+                <option value="XI-1 – XI-4">Kelas XI-1 sampai XI-4</option>
+                <option value="XI-5 – XI-6">Kelas XI-5 sampai XI-6</option>
+                <option value="XI-7 – XI-8">Kelas XI-7 sampai XI-8</option>
+                <option value="XI-9 – XI-10">Kelas XI-9 sampai XI-10</option>
+                <option value="XI-11 – XI-12">Kelas XI-11 sampai XI-12</option>
+              </optgroup>
+              <optgroup label="Kelas XII">
+                <option value="XII-1 – XII-8">Kelas XII-1 hingga XII-8</option>
+                <option value="XII-9 – XII-12">
+                  Kelas XII-9 hingga XII-12
+                </option>
+              </optgroup>
             </select>
           </div>
         </div>
@@ -194,7 +205,7 @@
                 });
               });
 
-              $("#kelasName").text("Jadwal Kelas " + kelas);
+              $("#kelasName").text("Jadwal Ujian " + kelas);
               $("#jadwal").show();
             },
           });
