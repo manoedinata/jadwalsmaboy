@@ -172,6 +172,45 @@
 
           return max_length;
         }
+        function formatDate(dateStr) {
+          // Split the input date string and create a Date object
+          const [day, month, year] = dateStr
+            .split("-")
+            .map((part) => parseInt(part, 10)); // Remove the leading zero from a two-digit date
+          const date = new Date(`${year}-${month}-${day}`);
+
+          // Arrays for day and month names in Indonesian
+          const days = [
+            "Minggu",
+            "Senin",
+            "Selasa",
+            "Rabu",
+            "Kamis",
+            "Jumat",
+            "Sabtu",
+          ];
+          const months = [
+            "Januari",
+            "Februari",
+            "Maret",
+            "April",
+            "Mei",
+            "Juni",
+            "Juli",
+            "Agustus",
+            "September",
+            "Oktober",
+            "November",
+            "Desember",
+          ];
+
+          // Get the day of the week, day, month, and year
+          const dayName = days[date.getDay()];
+          const monthName = months[date.getMonth()];
+
+          // Format the date string
+          return `${dayName}, ${day} ${monthName} ${year}`;
+        }
       </script>
       <script>
         function getJadwal(kelas) {
@@ -195,7 +234,7 @@
                     // 1. Tanggal
                     let tdTanggal = document.createElement("td");
                     tdTanggal.rowSpan = lengthJadwal;
-                    tdTanggal.textContent = data["tanggal"];
+                    tdTanggal.textContent = formatDate(data["tanggal"]);
                     trPerHari.appendChild(tdTanggal);
                   }
 
