@@ -1,0 +1,194 @@
+[
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-1",
+        "hari": 5,
+        "jam": 1
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-1",
+        "hari": 5,
+        "jam": 2
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-1",
+        "hari": 5,
+        "jam": 3
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-2",
+        "hari": 3,
+        "jam": 4
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-2",
+        "hari": 3,
+        "jam": 5
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-2",
+        "hari": 3,
+        "jam": 6
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-3",
+        "hari": 5,
+        "jam": 4
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-3",
+        "hari": 5,
+        "jam": 5
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "X-3",
+        "hari": 5,
+        "jam": 6
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-1",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-1",
+        "hari": 1,
+        "jam": 2
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-1",
+        "hari": 5,
+        "jam": 7
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-1",
+        "hari": 5,
+        "jam": 8
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-1",
+        "hari": 5,
+        "jam": 9
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-2",
+        "hari": 2,
+        "jam": 4
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-2",
+        "hari": 2,
+        "jam": 5
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-2",
+        "hari": 2,
+        "jam": 6
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-2",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-2",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-3",
+        "hari": 1,
+        "jam": 3
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-3",
+        "hari": 1,
+        "jam": 4
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-3",
+        "hari": 3,
+        "jam": 1
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-3",
+        "hari": 3,
+        "jam": 2
+    },
+    {
+        "index": 6,
+        "nama": "Agus Winoto, M.Pd.",
+        "keterangan": "Fisika",
+        "kelas": "XI-3",
+        "hari": 3,
+        "jam": 3
+    }
+]

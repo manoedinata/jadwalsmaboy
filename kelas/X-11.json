@@ -1,0 +1,396 @@
+[
+    [
+        {
+            "index": 28,
+            "nama": "Lilik Suryani, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 28,
+            "nama": "Lilik Suryani, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 28,
+            "nama": "Lilik Suryani, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 48,
+            "nama": "Aprilina Trisusiani, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 48,
+            "nama": "Aprilina Trisusiani, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-11",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "PKWU",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "PKWU",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 70,
+            "nama": "Lilik Sulistyorini S.Pd",
+            "keterangan": "Matematika",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 70,
+            "nama": "Lilik Sulistyorini S.Pd",
+            "keterangan": "Matematika",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 82,
+            "nama": "Riza Albait Bayhaki S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 82,
+            "nama": "Riza Albait Bayhaki S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 82,
+            "nama": "Riza Albait Bayhaki S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-11",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 43,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 43,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 43,
+            "nama": "Alfi Kurniawan Isna Putra, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-11",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 54,
+            "nama": "Andi Ira Septivani, S.Pd. ",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 54,
+            "nama": "Andi Ira Septivani, S.Pd. ",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 40,
+            "nama": "Ika Murti Hapsari, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 40,
+            "nama": "Ika Murti Hapsari, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 58,
+            "nama": "Ika Ayu Ningrum, S.Sos.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 58,
+            "nama": "Ika Ayu Ningrum, S.Sos.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "X-11",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 60,
+            "nama": "Ayu Oktia Wardani, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 60,
+            "nama": "Ayu Oktia Wardani, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 60,
+            "nama": "Ayu Oktia Wardani, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 58,
+            "nama": "Ika Ayu Ningrum, S.Sos.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 70,
+            "nama": "Lilik Sulistyorini S.Pd",
+            "keterangan": "Matematika",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 70,
+            "nama": "Lilik Sulistyorini S.Pd",
+            "keterangan": "Matematika",
+            "kelas": "X-11",
+            "hari": 5,
+            "jam": 8
+        }
+    ]
+]

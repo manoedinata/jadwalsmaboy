@@ -1,0 +1,420 @@
+[
+    [
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-2",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-2",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-2",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-2",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 38,
+            "nama": "Septikasari, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 9
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 10
+        },
+        {
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "XI-2",
+            "hari": 5,
+            "jam": 11
+        }
+    ]
+]

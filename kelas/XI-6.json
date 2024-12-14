@@ -1,0 +1,420 @@
+[
+    [
+        {
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-6",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 3,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 3,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-6",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XI-6",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 3,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 3,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 3,
+            "nama": "Sri Hartati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 57,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 68,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 68,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 68,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 68,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 68,
+            "nama": "Muhammad Mas'ud Arifin, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 79,
+            "nama": "Firda Novi Azizah S.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 42,
+            "nama": "Novi Dwi Cahyanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 57,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 9
+        },
+        {
+            "index": 57,
+            "nama": "Imam Rosidi, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 10
+        },
+        {
+            "index": 39,
+            "nama": "Vitta Amelia Suparno, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "XI-6",
+            "hari": 5,
+            "jam": 11
+        }
+    ]
+]

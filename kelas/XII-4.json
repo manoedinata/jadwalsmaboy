@@ -1,0 +1,420 @@
+[
+    [
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 14,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 14,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XII-4",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 12,
+            "nama": "Heri Sutrisno, S.Sn., M.M.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 12,
+            "nama": "Heri Sutrisno, S.Sn., M.M.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-4",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 7,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 7,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 7,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-4",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 7,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 7,
+            "nama": "Andie Syahroel Saidi, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 14,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 14,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 14,
+            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "keterangan": "Kimia",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
+            "kelas": "XII-4",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 2,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 2,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 35,
+            "nama": "Sri Winarni, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 25,
+            "nama": "Sri Wartiningsih, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 41,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 41,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 9
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 10
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-4",
+            "hari": 5,
+            "jam": 11
+        }
+    ]
+]

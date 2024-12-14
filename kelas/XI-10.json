@@ -1,0 +1,420 @@
+[
+    [
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 27,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 27,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 59,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 59,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "XI-10",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 8,
+            "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-10",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 46,
+            "nama": "Tya Rizki Wulandari, S.Pd.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 21,
+            "nama": "Tria Bina Tama, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 50,
+            "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 50,
+            "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 50,
+            "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 56,
+            "nama": "Bintari Setyo Ariyandini, S.Pd.",
+            "keterangan": "Bhs. Jawa ",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 59,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 59,
+            "nama": "Avionita Wijayanti, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XI-10",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 50,
+            "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 50,
+            "nama": "Yuliana Dwi Purwatika, S.Pd., M.M.",
+            "keterangan": "Ekonomi",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 37,
+            "nama": "Agung Prihartono, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 24,
+            "nama": "Agung Setiawan, S.Pd.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 27,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 27,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 27,
+            "nama": "Dyah Yulia Niastiti, S.Pd.",
+            "keterangan": "Bahasa Jepang",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 9
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 10
+        },
+        {
+            "index": 47,
+            "nama": "Rahma Diana Dewi, S. Kom.",
+            "keterangan": "Informatika",
+            "kelas": "XI-10",
+            "hari": 5,
+            "jam": 11
+        }
+    ]
+]

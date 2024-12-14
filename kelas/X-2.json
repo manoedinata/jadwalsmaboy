@@ -1,0 +1,396 @@
+[
+    [
+        {
+            "index": 48,
+            "nama": "Aprilina Trisusiani, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 48,
+            "nama": "Aprilina Trisusiani, S.Kom.",
+            "keterangan": "Informatika",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 23,
+            "nama": "Dra. Noor Hayati",
+            "keterangan": "Biologi",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 23,
+            "nama": "Dra. Noor Hayati",
+            "keterangan": "Biologi",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 23,
+            "nama": "Dra. Noor Hayati",
+            "keterangan": "Biologi",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-2",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 31,
+            "nama": "Wiwik Rianawati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 31,
+            "nama": "Wiwik Rianawati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 54,
+            "nama": "Andi Ira Septivani, S.Pd. ",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 54,
+            "nama": "Andi Ira Septivani, S.Pd. ",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 44,
+            "nama": "Anisa Kusumaningrum, S.Pd.",
+            "keterangan": "Geografi",
+            "kelas": "X-2",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 45,
+            "nama": "Wara Pamungkas Mustikaningtyas, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 45,
+            "nama": "Wara Pamungkas Mustikaningtyas, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 45,
+            "nama": "Wara Pamungkas Mustikaningtyas, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 6,
+            "nama": "Agus Winoto, M.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 52,
+            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 52,
+            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "X-2",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 75,
+            "nama": "Pradini Ratih Wardhani S.Pd",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 75,
+            "nama": "Pradini Ratih Wardhani S.Pd",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 39,
+            "nama": "Vitta Amelia Suparno, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 39,
+            "nama": "Vitta Amelia Suparno, S.Pd.",
+            "keterangan": "BK",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 11,
+            "nama": "Mu'arif, S.Pd., M.M.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 11,
+            "nama": "Mu'arif, S.Pd., M.M.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 11,
+            "nama": "Mu'arif, S.Pd., M.M.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "X-2",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 52,
+            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 52,
+            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "keterangan": "Matematika",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 74,
+            "nama": "Agus Winardi S.E.",
+            "keterangan": "Ekonomi & PKWU",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 74,
+            "nama": "Agus Winardi S.E.",
+            "keterangan": "Ekonomi & PKWU",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 75,
+            "nama": "Pradini Ratih Wardhani S.Pd",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 75,
+            "nama": "Pradini Ratih Wardhani S.Pd",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 31,
+            "nama": "Wiwik Rianawati, S.Pd.",
+            "keterangan": "Ekonomi",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
+            "kelas": "X-2",
+            "hari": 5,
+            "jam": 8
+        }
+    ]
+]

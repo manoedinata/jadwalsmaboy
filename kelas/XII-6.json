@@ -1,0 +1,420 @@
+[
+    [
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 1
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 2
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 3
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 4
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 5
+        },
+        {
+            "index": 26,
+            "nama": "Bahrun Nasor, M.Pd.I.",
+            "keterangan": "PAI dan BP",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 6
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 7
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 8
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 9
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-6",
+            "hari": 1,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 1
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 2
+        },
+        {
+            "index": 34,
+            "nama": "Prapti Rahayu, M.Pd.",
+            "keterangan": "Biologi",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 3
+        },
+        {
+            "index": 55,
+            "nama": "Yuli Rachmawati, S.Pd.",
+            "keterangan": "Bahasa Inggris",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 4
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 5
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 6
+        },
+        {
+            "index": 9,
+            "nama": "Siti Fadilah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 7
+        },
+        {
+            "index": 9,
+            "nama": "Siti Fadilah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 8
+        },
+        {
+            "index": 32,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 9
+        },
+        {
+            "index": 32,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 2,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 2,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 1
+        },
+        {
+            "index": 2,
+            "nama": "Drs. Endro Santoso, M.M.",
+            "keterangan": "Pendidikan Pancasila",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 2
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 3
+        },
+        {
+            "index": 10,
+            "nama": "Dra. Pramugawati, M.M.Pd.",
+            "keterangan": "Kimia",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 4
+        },
+        {
+            "index": 9,
+            "nama": "Siti Fadilah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 5
+        },
+        {
+            "index": 9,
+            "nama": "Siti Fadilah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 6
+        },
+        {
+            "index": 22,
+            "nama": "Aris Defiana, S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 22,
+            "nama": "Aris Defiana, S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-6",
+            "hari": 3,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 41,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 1
+        },
+        {
+            "index": 41,
+            "nama": "Nur Umami, S.Pd.",
+            "keterangan": "Sejarah",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 2
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 3
+        },
+        {
+            "index": 62,
+            "nama": "Henindhar Amroh, S.Pd.",
+            "keterangan": "Bhs. Jawa",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 4
+        },
+        {
+            "index": 30,
+            "nama": "Andi Suwignyo Dharmawanto, S.Pd.",
+            "keterangan": "Penjasorkes",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 5
+        },
+        {
+            "index": 61,
+            "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 6
+        },
+        {
+            "index": 61,
+            "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 7
+        },
+        {
+            "index": 22,
+            "nama": "Aris Defiana, S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 8
+        },
+        {
+            "index": 22,
+            "nama": "Aris Defiana, S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 9
+        },
+        {
+            "index": 22,
+            "nama": "Aris Defiana, S.Kom",
+            "keterangan": "Informatika",
+            "kelas": "XII-6",
+            "hari": 4,
+            "jam": 10
+        }
+    ],
+    [
+        {
+            "index": 61,
+            "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 1
+        },
+        {
+            "index": 61,
+            "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 2
+        },
+        {
+            "index": 61,
+            "nama": "Adib Fawaid Kurniansyah, S.Pd.",
+            "keterangan": "Fisika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 3
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 4
+        },
+        {
+            "index": 19,
+            "nama": "Nisa Nur Dina, S.Pd.",
+            "keterangan": "Bahasa Indonesia",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 5
+        },
+        {
+            "index": 25,
+            "nama": "Sri Wartiningsih, S.Pd.",
+            "keterangan": "BP/BK",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 6
+        },
+        {
+            "index": 32,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 7
+        },
+        {
+            "index": 32,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 8
+        },
+        {
+            "index": 32,
+            "nama": "Istiyah, S.Pd.",
+            "keterangan": "Matematika",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 9
+        },
+        {
+            "index": 12,
+            "nama": "Heri Sutrisno, S.Sn., M.M.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 10
+        },
+        {
+            "index": 12,
+            "nama": "Heri Sutrisno, S.Sn., M.M.",
+            "keterangan": "Seni Budaya",
+            "kelas": "XII-6",
+            "hari": 5,
+            "jam": 11
+        }
+    ]
+]
