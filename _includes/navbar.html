@@ -1,0 +1,53 @@
+<nav class="navbar navbar-dark bg-blue-dark navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">Jadwal Pelajaran</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a
+          class="nav-link active"
+          aria-current="page"
+          href="{{ '/' | relative_url }}"
+          >Pelajaran</a
+        >
+        <a
+          class="nav-link"
+          aria-current="page"
+          href="{{ '/guru' | relative_url }}"
+          >Guru</a
+        >
+        <a
+          class="nav-link"
+          aria-current="page"
+          href="{{ '/lokasi_guru' | relative_url }}"
+          >Lokasi Guru</a
+        >
+        <a
+          class="nav-link"
+          aria-current="page"
+          href="{{ '/doa' | relative_url }}"
+          >Doa</a
+        >
+        <a class="nav-link" href="{{ '/ujian' | relative_url }}"
+          >Ujian PAS 2024</a
+        >
+        <a
+          class="nav-link"
+          aria-current="page"
+          href="{{ '/donasi' | relative_url }}"
+          >Donasi</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>

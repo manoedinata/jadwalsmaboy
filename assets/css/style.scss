@@ -1,3 +1,6 @@
+---
+---
+
 * {
   --dark-body: #182433;
 }
@@ -8,7 +11,7 @@
 
 @font-face {
   font-family: AvertaStd;
-  src: url(fonts/AvertaStd-Regular.ttf);
+  src: url("{{ '/assets/fonts/AvertaStd-Regular.ttf' | relative_url }}");
 }
 
 .font-averta {

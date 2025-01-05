@@ -1,0 +1,16 @@
+# site settings
+title: Jadwal SMAN 1 Boyolangu
+url: "https://jadwal.sman1boyolangu.sch.id"
+baseurl: ""
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
