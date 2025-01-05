@@ -71,7 +71,46 @@
       </svg>
     </div>
 
-    <main id="main">{{ content }}</main>
+    <main id="main">
+      <!-- Pengumuman -->
+      <div
+        id="pengumuman"
+        class="modal fade"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Pengumuman 🔊</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h4 id="pengumuman-title"></h4>
+              <hr />
+              <div id="pengumuman-content"></div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Tutup
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{ content }}
+    </main>
 
     <footer>
       <div class="container">
@@ -81,6 +120,42 @@
           </p>
         </footer>
       </div>
+
+      <!-- Fetch pengumuman -->
+      <script>
+        var lastPengumuman = localStorage.getItem("last_pengumuman_id");
+
+        $(document).ready(() => {
+          $.ajax({
+            url: "{{ 'data/pengumuman.json' | relative_url }}",
+            type: "GET",
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+              if (data["id"] == lastPengumuman && data["view_once"]) {
+                return;
+              }
+
+              $("#pengumuman-title").html(data["title"]);
+              $("#pengumuman-content").html(data["content"]);
+
+              // Show modal
+              var pengumuman = document.getElementById("pengumuman");
+              new bootstrap.Modal(pengumuman).show();
+
+              // Listen for close
+              pengumuman.addEventListener("hidden.bs.modal", (event) => {
+                if (data["view_once"]) {
+                  localStorage.setItem("last_pengumuman_id", data["id"]);
+                }
+              });
+            },
+            error: function (xhr, status, error) {
+              // Don't be too strict: Let's allow error
+              return;
+            },
+          });
+        });
+      </script>
 
       <!-- Dynamic navbar active state -->
       <script type="text/javascript">
