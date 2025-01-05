@@ -87,7 +87,7 @@ description: |
   function getJadwal(kelas) {
     if (!kelas) return;
     $.ajax({
-      url: "{{ 'ujian' | relative_url }}" + `/${kelas}.json`,
+      url: "{{ 'data/ujian' | relative_url }}" + `/${kelas}.json`,
       type: "GET",
       dataType: "json",
       success: function (dataPerHari, textStatus, jqXHR) {

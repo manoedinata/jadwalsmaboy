@@ -93,7 +93,7 @@ description: |
 
   function fetchGuruInfo() {
     $.ajax({
-      url: "{{ 'guru/all.json' | relative_url }}",
+      url: "{{ 'data/guru/all.json' | relative_url }}",
       type: "GET",
       dataType: "json",
       // Run in synchronous to avoid early loaded Javascript
@@ -119,7 +119,7 @@ description: |
     let namaGuru;
 
     $.ajax({
-      url: `lokasi_guru/${id}.json`,
+      url: "{{ 'data/lokasi_guru' | relative_url }}" + `/${id}.json`,
       type: "GET",
       dataType: "json",
       success: function (dataPerHari, textStatus, jqXHR) {

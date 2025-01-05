@@ -124,7 +124,7 @@ description: |
 <script>
   function fetchKelasInfo() {
     $.ajax({
-      url: "{{ 'kelas/info.json' | relative_url }}",
+      url: "{{ 'data/kelas/info.json' | relative_url }}",
       type: "GET",
       dataType: "json",
       // Run in synchronous to avoid early loaded Javascript
@@ -153,7 +153,7 @@ description: |
   function getJadwal(kelas) {
     if (!kelas) return;
     $.ajax({
-      url: `kelas/${kelas}.json`,
+      url: "{{ 'data/kelas' | relative_url }}" + `/${kelas}.json`,
       type: "GET",
       dataType: "json",
       success: function (dataPerHari, textStatus, jqXHR) {
