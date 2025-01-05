@@ -81,6 +81,23 @@
           </p>
         </footer>
       </div>
+
+      <!-- Dynamic navbar active state -->
+      <script type="text/javascript">
+        var url = window.location;
+        // Get the sanitized URL location
+        url = (
+          url.pathname.length > 1 && url.pathname.endsWith("/")
+            ? url.href.slice(0, -1)
+            : url.href
+        ).split("?")[0];
+
+        $("a.nav-link")
+          .filter(function () {
+            return this.href == url;
+          })
+          .addClass("active");
+      </script>
     </footer>
   </body>
 </html>
