@@ -160,12 +160,12 @@ description: |
         $("#tbodyTable").empty();
         $("#tbodyTableJumat").empty();
 
+        // Khusus hari Jumat, pakai 11 jam pelajaran (array maksimal)
         let maxJamPelajaran = getMaxLengthInArrays(dataPerHari);
-
         // Hari biasa
-        /// Hari biasa maksimal 10 pelajaran
+        /// Maksimal 10 pelajaran
         /// Jika aturan ini berubah, tolong kode di bawah disesuaikan
-        let jamPelajaranBiasa = maxJamPelajaran - 1;
+        let jamPelajaranBiasa = 10;
         for (let jamPelajaran of Array(jamPelajaranBiasa).keys()) {
           let trPerHari = document.createElement("tr");
 
