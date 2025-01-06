@@ -1,6 +1,6 @@
 {
-  "id": 2,
-  "title": "Jadwal Pelajaran Sedang Diperbarui!",
-  "content": "Data pelajaran pada website sedang dalam masa pembaruan data, mengikuti surat edaran jadwal yang dibagikan per 6 Januari 2024. Mohon gunakan lembaran resmi untuk sementara waktu demi menghindari kesalahan jadwal. Terima kasih!",
-  "view_once": false
+  "id": 3,
+  "title": "Jadwal Pelajaran Selesai Diperbarui, Tapi...",
+  "content": "Data pelajaran pada website sudah sesuai dengan data terbaru, mengikuti surat edaran jadwal yang dibagikan per 6 Januari 2024. Namun, kami memperkirakan <strong>data yang ada masih belum sempurna dan kemungkinan masih ada perubahan dari pihak sekolah.</strong> Untuk itu, jika ada ketidaksesuaian ataupun perubahan jadwal mendadak, itu diluar kuasa kami, karena kami mengikuti edaran jadwal yang ada. <br><br>Jika ada ketidakcocokan antara website dan edaran, harap segera melapor. Terima kasih!",
+  "view_once": true
 }
