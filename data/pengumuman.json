@@ -1,6 +1,6 @@
 {
-  "id": 1,
-  "title": "Jadwal Pelajaran Belum Diperbaharui!",
-  "content": "Mohon diperhatikan bahwa data jadwal pelajaran belum diperbaharui ke semester 2, sehingga <strong>data yang ada masih berupa jadwal semester 1</strong>. Saat ini masih menunggu edaran resmi dari sekolah. Terima kasih.",
-  "view_once": true
+  "id": 2,
+  "title": "Jadwal Pelajaran Sedang Diperbarui!",
+  "content": "Data pelajaran pada website sedang dalam masa pembaruan data, mengikuti surat edaran jadwal yang dibagikan per 6 Januari 2024. Mohon gunakan lembaran resmi untuk sementara waktu demi menghindari kesalahan jadwal. Terima kasih!",
+  "view_once": false
 }
