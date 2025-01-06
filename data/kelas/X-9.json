@@ -49,8 +49,8 @@
             "jam": 6
         },
         {
-            "index": 37,
-            "nama": "Agung Prihartono, S.Pd.",
+            "index": 83,
+            "nama": "Bambang Koko Hadi Purwanto, S.Pd.",
             "keterangan": "Penjasorkes",
             "kelas": "X-9",
             "hari": 1,
@@ -84,7 +84,7 @@
     [
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-9",
             "hari": 2,
@@ -92,7 +92,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-9",
             "hari": 2,
@@ -147,17 +147,17 @@
             "jam": 8
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-9",
             "hari": 2,
             "jam": 9
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-9",
             "hari": 2,
             "jam": 10
@@ -165,16 +165,16 @@
     ],
     [
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-9",
             "hari": 3,
             "jam": 1
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-9",
             "hari": 3,
@@ -265,7 +265,7 @@
         {
             "index": 80,
             "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-9",
             "hari": 4,
             "jam": 3
@@ -329,17 +329,17 @@
     ],
     [
         {
-            "index": 64,
-            "nama": "Arreza Mulya Prasetya, S.Pd.",
-            "keterangan": "Fisika",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-9",
             "hari": 5,
             "jam": 1
         },
         {
-            "index": 63,
-            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
-            "keterangan": "PAI dan BP",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-9",
             "hari": 5,
             "jam": 2
@@ -361,33 +361,33 @@
             "jam": 4
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
-            "keterangan": "Matematika",
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
             "kelas": "X-9",
             "hari": 5,
             "jam": 5
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-9",
             "hari": 5,
             "jam": 6
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "X-9",
             "hari": 5,
             "jam": 7
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
+            "keterangan": "Fisika",
             "kelas": "X-9",
             "hari": 5,
             "jam": 8

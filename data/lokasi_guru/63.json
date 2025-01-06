@@ -197,14 +197,6 @@
         "keterangan": "PAI dan BP",
         "kelas": "X-9",
         "hari": 5,
-        "jam": 2
-    },
-    {
-        "index": 63,
-        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
-        "keterangan": "PAI dan BP",
-        "kelas": "X-9",
-        "hari": 5,
         "jam": 3
     },
     {
@@ -214,6 +206,14 @@
         "kelas": "X-9",
         "hari": 5,
         "jam": 4
+    },
+    {
+        "index": 63,
+        "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+        "keterangan": "PAI dan BP",
+        "kelas": "X-9",
+        "hari": 5,
+        "jam": 5
     },
     {
         "index": 63,
@@ -245,7 +245,7 @@
         "keterangan": "PAI dan BP",
         "kelas": "XI-11",
         "hari": 1,
-        "jam": 7
+        "jam": 1
     },
     {
         "index": 63,

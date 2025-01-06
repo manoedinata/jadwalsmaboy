@@ -28,14 +28,6 @@
         "nama": "Fisky Robsan Surya Pantara, S.Pd.",
         "keterangan": "Penjasorkes",
         "kelas": "X-2",
-        "hari": 1,
-        "jam": 5
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "X-2",
         "hari": 3,
         "jam": 9
     },
@@ -46,6 +38,14 @@
         "kelas": "X-2",
         "hari": 3,
         "jam": 10
+    },
+    {
+        "index": 49,
+        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+        "keterangan": "Penjasorkes",
+        "kelas": "X-2",
+        "hari": 5,
+        "jam": 8
     },
     {
         "index": 49,
@@ -99,102 +99,6 @@
         "index": 49,
         "nama": "Fisky Robsan Surya Pantara, S.Pd.",
         "keterangan": "Penjasorkes",
-        "kelas": "XI-5",
-        "hari": 4,
-        "jam": 9
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-5",
-        "hari": 4,
-        "jam": 10
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-5",
-        "hari": 5,
-        "jam": 7
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-6",
-        "hari": 3,
-        "jam": 5
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-6",
-        "hari": 5,
-        "jam": 1
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-6",
-        "hari": 5,
-        "jam": 2
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-7",
-        "hari": 3,
-        "jam": 7
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-7",
-        "hari": 5,
-        "jam": 3
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-7",
-        "hari": 5,
-        "jam": 4
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-8",
-        "hari": 3,
-        "jam": 8
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-8",
-        "hari": 5,
-        "jam": 10
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
-        "kelas": "XI-8",
-        "hari": 5,
-        "jam": 11
-    },
-    {
-        "index": 49,
-        "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-        "keterangan": "Penjasorkes",
         "kelas": "XII-9",
         "hari": 1,
         "jam": 8
@@ -261,7 +165,7 @@
         "keterangan": "Penjasorkes",
         "kelas": "XII-11",
         "hari": 4,
-        "jam": 5
+        "jam": 10
     },
     {
         "index": 49,

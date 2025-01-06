@@ -148,16 +148,16 @@
         "nama": "Tya Rizki Wulandari, S.Pd.",
         "keterangan": "Pendidikan Pancasila",
         "kelas": "XI-10",
-        "hari": 4,
-        "jam": 1
+        "hari": 1,
+        "jam": 9
     },
     {
         "index": 46,
         "nama": "Tya Rizki Wulandari, S.Pd.",
         "keterangan": "Pendidikan Pancasila",
         "kelas": "XI-10",
-        "hari": 4,
-        "jam": 2
+        "hari": 1,
+        "jam": 10
     },
     {
         "index": 46,
@@ -180,7 +180,7 @@
         "nama": "Tya Rizki Wulandari, S.Pd.",
         "keterangan": "Pendidikan Pancasila",
         "kelas": "XI-12",
-        "hari": 5,
+        "hari": 4,
         "jam": 1
     },
     {
@@ -188,7 +188,7 @@
         "nama": "Tya Rizki Wulandari, S.Pd.",
         "keterangan": "Pendidikan Pancasila",
         "kelas": "XI-12",
-        "hari": 5,
+        "hari": 4,
         "jam": 2
     }
 ]

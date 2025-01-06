@@ -3,6 +3,102 @@
         "index": 73,
         "nama": "Akbar Trisna Romadhoni S.Pd.",
         "keterangan": "Matematika",
+        "kelas": "X-7",
+        "hari": 3,
+        "jam": 3
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-7",
+        "hari": 3,
+        "jam": 4
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-7",
+        "hari": 5,
+        "jam": 3
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-7",
+        "hari": 5,
+        "jam": 4
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-9",
+        "hari": 3,
+        "jam": 1
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-9",
+        "hari": 3,
+        "jam": 2
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-9",
+        "hari": 5,
+        "jam": 6
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-9",
+        "hari": 5,
+        "jam": 7
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-10",
+        "hari": 1,
+        "jam": 4
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-10",
+        "hari": 1,
+        "jam": 5
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-10",
+        "hari": 4,
+        "jam": 5
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
+        "kelas": "X-10",
+        "hari": 4,
+        "jam": 6
+    },
+    {
+        "index": 73,
+        "nama": "Akbar Trisna Romadhoni S.Pd.",
+        "keterangan": "Matematika",
         "kelas": "XI-6",
         "hari": 1,
         "jam": 1
@@ -85,7 +181,7 @@
         "keterangan": "Matematika",
         "kelas": "XI-9",
         "hari": 5,
-        "jam": 6
+        "jam": 8
     },
     {
         "index": 73,
@@ -93,6 +189,6 @@
         "keterangan": "Matematika",
         "kelas": "XI-9",
         "hari": 5,
-        "jam": 7
+        "jam": 9
     }
 ]

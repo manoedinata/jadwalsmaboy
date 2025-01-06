@@ -2,7 +2,151 @@
     {
         "index": 80,
         "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-1",
+        "hari": 4,
+        "jam": 5
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-1",
+        "hari": 4,
+        "jam": 6
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-2",
+        "hari": 5,
+        "jam": 3
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-2",
+        "hari": 5,
+        "jam": 4
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-3",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-3",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-4",
+        "hari": 4,
+        "jam": 1
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-4",
+        "hari": 4,
+        "jam": 2
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-5",
+        "hari": 4,
+        "jam": 9
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-5",
+        "hari": 4,
+        "jam": 10
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-6",
+        "hari": 5,
+        "jam": 7
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-6",
+        "hari": 5,
+        "jam": 8
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-7",
+        "hari": 1,
+        "jam": 4
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-7",
+        "hari": 1,
+        "jam": 5
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-8",
+        "hari": 1,
+        "jam": 7
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-8",
+        "hari": 1,
+        "jam": 8
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-9",
+        "hari": 2,
+        "jam": 9
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-9",
+        "hari": 2,
+        "jam": 10
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
         "kelas": "X-9",
         "hari": 4,
         "jam": 3
@@ -10,89 +154,89 @@
     {
         "index": 80,
         "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
+        "keterangan": "Ekonomi & PKWU",
         "kelas": "X-9",
         "hari": 5,
+        "jam": 1
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-9",
+        "hari": 5,
+        "jam": 2
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-10",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-10",
+        "hari": 1,
+        "jam": 2
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-10",
+        "hari": 1,
+        "jam": 3
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-10",
+        "hari": 2,
+        "jam": 4
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-10",
+        "hari": 2,
+        "jam": 5
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-11",
+        "hari": 1,
+        "jam": 9
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-11",
+        "hari": 1,
+        "jam": 10
+    },
+    {
+        "index": 80,
+        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-12",
+        "hari": 4,
         "jam": 7
     },
     {
         "index": 80,
         "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-9",
-        "hari": 5,
+        "keterangan": "Ekonomi & PKWU",
+        "kelas": "X-12",
+        "hari": 4,
         "jam": 8
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-10",
-        "hari": 1,
-        "jam": 5
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-10",
-        "hari": 2,
-        "jam": 9
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-10",
-        "hari": 2,
-        "jam": 10
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-11",
-        "hari": 1,
-        "jam": 9
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-11",
-        "hari": 1,
-        "jam": 10
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-11",
-        "hari": 3,
-        "jam": 7
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-12",
-        "hari": 3,
-        "jam": 5
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-12",
-        "hari": 4,
-        "jam": 5
-    },
-    {
-        "index": 80,
-        "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi",
-        "kelas": "X-12",
-        "hari": 4,
-        "jam": 6
     }
 ]

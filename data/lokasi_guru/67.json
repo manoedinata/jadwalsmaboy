@@ -101,23 +101,23 @@
         "keterangan": "Kimia",
         "kelas": "X-5",
         "hari": 3,
-        "jam": 6
-    },
-    {
-        "index": 67,
-        "nama": "Ika Lismarina, M.Pd.",
-        "keterangan": "Kimia",
-        "kelas": "X-5",
-        "hari": 3,
-        "jam": 7
-    },
-    {
-        "index": 67,
-        "nama": "Ika Lismarina, M.Pd.",
-        "keterangan": "Kimia",
-        "kelas": "X-5",
-        "hari": 3,
         "jam": 8
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "X-5",
+        "hari": 3,
+        "jam": 9
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "X-5",
+        "hari": 3,
+        "jam": 10
     },
     {
         "index": 67,
@@ -149,7 +149,7 @@
         "keterangan": "Kimia",
         "kelas": "XI-3",
         "hari": 4,
-        "jam": 5
+        "jam": 1
     },
     {
         "index": 67,
@@ -157,7 +157,7 @@
         "keterangan": "Kimia",
         "kelas": "XI-3",
         "hari": 4,
-        "jam": 6
+        "jam": 2
     },
     {
         "index": 67,
@@ -188,16 +188,16 @@
         "nama": "Ika Lismarina, M.Pd.",
         "keterangan": "Kimia",
         "kelas": "XI-4",
-        "hari": 3,
-        "jam": 9
+        "hari": 4,
+        "jam": 3
     },
     {
         "index": 67,
         "nama": "Ika Lismarina, M.Pd.",
         "keterangan": "Kimia",
         "kelas": "XI-4",
-        "hari": 3,
-        "jam": 10
+        "hari": 4,
+        "jam": 4
     },
     {
         "index": 67,
@@ -222,5 +222,85 @@
         "kelas": "XI-4",
         "hari": 5,
         "jam": 10
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-1",
+        "hari": 1,
+        "jam": 1
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-1",
+        "hari": 1,
+        "jam": 2
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-1",
+        "hari": 3,
+        "jam": 4
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-1",
+        "hari": 3,
+        "jam": 5
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-1",
+        "hari": 3,
+        "jam": 6
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-4",
+        "hari": 1,
+        "jam": 9
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-4",
+        "hari": 1,
+        "jam": 10
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-4",
+        "hari": 4,
+        "jam": 5
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-4",
+        "hari": 4,
+        "jam": 6
+    },
+    {
+        "index": 67,
+        "nama": "Ika Lismarina, M.Pd.",
+        "keterangan": "Kimia",
+        "kelas": "XII-4",
+        "hari": 4,
+        "jam": 7
     }
 ]

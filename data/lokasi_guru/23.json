@@ -4,24 +4,24 @@
         "nama": "Dra. Noor Hayati",
         "keterangan": "Biologi",
         "kelas": "X-1",
-        "hari": 2,
-        "jam": 1
+        "hari": 5,
+        "jam": 6
     },
     {
         "index": 23,
         "nama": "Dra. Noor Hayati",
         "keterangan": "Biologi",
         "kelas": "X-1",
-        "hari": 2,
-        "jam": 2
+        "hari": 5,
+        "jam": 7
     },
     {
         "index": 23,
         "nama": "Dra. Noor Hayati",
         "keterangan": "Biologi",
         "kelas": "X-1",
-        "hari": 2,
-        "jam": 3
+        "hari": 5,
+        "jam": 8
     },
     {
         "index": 23,
@@ -53,14 +53,6 @@
         "keterangan": "Biologi",
         "kelas": "X-3",
         "hari": 3,
-        "jam": 1
-    },
-    {
-        "index": 23,
-        "nama": "Dra. Noor Hayati",
-        "keterangan": "Biologi",
-        "kelas": "X-3",
-        "hari": 3,
         "jam": 2
     },
     {
@@ -70,6 +62,14 @@
         "kelas": "X-3",
         "hari": 3,
         "jam": 3
+    },
+    {
+        "index": 23,
+        "nama": "Dra. Noor Hayati",
+        "keterangan": "Biologi",
+        "kelas": "X-3",
+        "hari": 3,
+        "jam": 4
     },
     {
         "index": 23,

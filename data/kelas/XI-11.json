@@ -1,9 +1,9 @@
 [
     [
         {
-            "index": 76,
-            "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 63,
+            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
+            "keterangan": "PAI dan BP",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 1
@@ -11,7 +11,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 2
@@ -19,15 +19,15 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 3
         },
         {
-            "index": 20,
-            "nama": "Ratna Suminar, S.Kom. M.Pd.",
-            "keterangan": "Informatika",
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 4
@@ -49,9 +49,9 @@
             "jam": 6
         },
         {
-            "index": 63,
-            "nama": "M. Fathul Farikh Fauzy, S.Ant., MA.",
-            "keterangan": "PAI dan BP",
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 7
@@ -65,17 +65,17 @@
             "jam": 8
         },
         {
-            "index": 53,
-            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 65,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika & Biologi",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 9
         },
         {
-            "index": 53,
-            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 65,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika & Biologi",
             "kelas": "XI-11",
             "hari": 1,
             "jam": 10
@@ -99,17 +99,17 @@
             "jam": 2
         },
         {
-            "index": 53,
-            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 3
         },
         {
-            "index": 53,
-            "nama": "Rizky Dewi Nur Wahyudi, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 4
@@ -131,17 +131,17 @@
             "jam": 6
         },
         {
-            "index": 74,
-            "nama": "Agus Winardi S.E.",
-            "keterangan": "Ekonomi & PKWU",
+            "index": 65,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika & Biologi",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 7
         },
         {
-            "index": 74,
-            "nama": "Agus Winardi S.E.",
-            "keterangan": "Ekonomi & PKWU",
+            "index": 65,
+            "nama": "Trisna Wulandari, S.Pd.",
+            "keterangan": "Matematika & Biologi",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 8
@@ -149,7 +149,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 9
@@ -157,7 +157,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-11",
             "hari": 2,
             "jam": 10
@@ -167,7 +167,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XI-11",
             "hari": 3,
             "jam": 1
@@ -175,7 +175,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XI-11",
             "hari": 3,
             "jam": 2
@@ -229,17 +229,17 @@
             "jam": 8
         },
         {
-            "index": 72,
-            "nama": "Wiga Rafita S.Pd",
-            "keterangan": "Sejarah",
+            "index": 74,
+            "nama": "Agus Winardi S.E.",
+            "keterangan": "Ekonomi",
             "kelas": "XI-11",
             "hari": 3,
             "jam": 9
         },
         {
-            "index": 72,
-            "nama": "Wiga Rafita S.Pd",
-            "keterangan": "Sejarah",
+            "index": 74,
+            "nama": "Agus Winardi S.E.",
+            "keterangan": "Ekonomi",
             "kelas": "XI-11",
             "hari": 3,
             "jam": 10
@@ -379,7 +379,7 @@
         {
             "index": 74,
             "nama": "Agus Winardi S.E.",
-            "keterangan": "Ekonomi & PKWU",
+            "keterangan": "Ekonomi",
             "kelas": "XI-11",
             "hari": 5,
             "jam": 7
@@ -387,7 +387,7 @@
         {
             "index": 74,
             "nama": "Agus Winardi S.E.",
-            "keterangan": "Ekonomi & PKWU",
+            "keterangan": "Ekonomi",
             "kelas": "XI-11",
             "hari": 5,
             "jam": 8
@@ -395,7 +395,7 @@
         {
             "index": 74,
             "nama": "Agus Winardi S.E.",
-            "keterangan": "Ekonomi & PKWU",
+            "keterangan": "Ekonomi",
             "kelas": "XI-11",
             "hari": 5,
             "jam": 9

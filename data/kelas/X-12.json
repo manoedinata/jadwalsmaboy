@@ -35,7 +35,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-12",
             "hari": 1,
             "jam": 5
@@ -43,7 +43,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-12",
             "hari": 1,
             "jam": 6
@@ -51,7 +51,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-12",
             "hari": 1,
             "jam": 7
@@ -99,16 +99,16 @@
             "jam": 2
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-12",
             "hari": 2,
             "jam": 3
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-12",
             "hari": 2,
@@ -197,36 +197,12 @@
             "jam": 4
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
-            "kelas": "X-12",
-            "hari": 3,
-            "jam": 5
-        },
-        {
-            "index": 78,
-            "nama": "Rukmini Handayani S.Pd.",
-            "keterangan": "Bahasa Indonesia",
-            "kelas": "X-12",
-            "hari": 3,
-            "jam": 6
-        },
-        {
-            "index": 78,
-            "nama": "Rukmini Handayani S.Pd.",
-            "keterangan": "Bahasa Indonesia",
-            "kelas": "X-12",
-            "hari": 3,
-            "jam": 7
-        },
-        {
             "index": 37,
             "nama": "Agung Prihartono, S.Pd.",
             "keterangan": "Penjasorkes",
             "kelas": "X-12",
             "hari": 3,
-            "jam": 8
+            "jam": 5
         },
         {
             "index": 40,
@@ -234,12 +210,36 @@
             "keterangan": "BK",
             "kelas": "X-12",
             "hari": 3,
-            "jam": 9
+            "jam": 6
         },
         {
             "index": 40,
             "nama": "Ika Murti Hapsari, S.Pd.",
             "keterangan": "BK",
+            "kelas": "X-12",
+            "hari": 3,
+            "jam": 7
+        },
+        {
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "Ekonomi",
+            "kelas": "X-12",
+            "hari": 3,
+            "jam": 8
+        },
+        {
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "Ekonomi",
+            "kelas": "X-12",
+            "hari": 3,
+            "jam": 9
+        },
+        {
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "Ekonomi",
             "kelas": "X-12",
             "hari": 3,
             "jam": 10
@@ -263,49 +263,49 @@
             "jam": 2
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "X-12",
             "hari": 4,
             "jam": 3
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "X-12",
             "hari": 4,
             "jam": 4
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
             "kelas": "X-12",
             "hari": 4,
             "jam": 5
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "index": 78,
+            "nama": "Rukmini Handayani S.Pd.",
+            "keterangan": "Bahasa Indonesia",
             "kelas": "X-12",
             "hari": 4,
             "jam": 6
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
-            "keterangan": "Matematika",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-12",
             "hari": 4,
             "jam": 7
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
-            "keterangan": "Matematika",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-12",
             "hari": 4,
             "jam": 8
@@ -378,7 +378,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-12",
             "hari": 5,
@@ -386,7 +386,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-12",
             "hari": 5,

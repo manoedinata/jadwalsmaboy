@@ -67,7 +67,7 @@
         {
             "index": 80,
             "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-11",
             "hari": 1,
             "jam": 9
@@ -75,7 +75,7 @@
         {
             "index": 80,
             "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-            "keterangan": "Ekonomi",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-11",
             "hari": 1,
             "jam": 10
@@ -83,17 +83,17 @@
     ],
     [
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "X-11",
             "hari": 2,
             "jam": 1
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "X-11",
             "hari": 2,
             "jam": 2
@@ -101,7 +101,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-11",
             "hari": 2,
             "jam": 3
@@ -109,7 +109,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-11",
             "hari": 2,
             "jam": 4
@@ -117,23 +117,23 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-11",
             "hari": 2,
             "jam": 5
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
-            "keterangan": "Matematika",
+            "index": 82,
+            "nama": "Riza Albait Bayhaki S.Pd.",
+            "keterangan": "Bahasa Inggris",
             "kelas": "X-11",
             "hari": 2,
             "jam": 6
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
-            "keterangan": "Matematika",
+            "index": 82,
+            "nama": "Riza Albait Bayhaki S.Pd.",
+            "keterangan": "Bahasa Inggris",
             "kelas": "X-11",
             "hari": 2,
             "jam": 7
@@ -147,17 +147,17 @@
             "jam": 8
         },
         {
-            "index": 82,
-            "nama": "Riza Albait Bayhaki S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "Ekonomi",
             "kelas": "X-11",
             "hari": 2,
             "jam": 9
         },
         {
-            "index": 82,
-            "nama": "Riza Albait Bayhaki S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
+            "keterangan": "Ekonomi",
             "kelas": "X-11",
             "hari": 2,
             "jam": 10
@@ -213,8 +213,8 @@
             "jam": 6
         },
         {
-            "index": 80,
-            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "index": 77,
+            "nama": "Anik Nurpatimah S.Pd, Gr",
             "keterangan": "Ekonomi",
             "kelas": "X-11",
             "hari": 3,
@@ -248,7 +248,7 @@
     [
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-11",
             "hari": 4,
@@ -256,7 +256,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-11",
             "hari": 4,
@@ -377,16 +377,16 @@
             "jam": 6
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-11",
             "hari": 5,
             "jam": 7
         },
         {
-            "index": 70,
-            "nama": "Lilik Sulistyorini S.Pd",
+            "index": 81,
+            "nama": "Cita Retno Wulandari S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-11",
             "hari": 5,

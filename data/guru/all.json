@@ -67,7 +67,7 @@
     {
         "index": 14,
         "nama": "Drs. H. Mulyono Santoso, M.M.",
-        "keterangan": "Kimia"
+        "keterangan": "PURNA TUGAS"
     },
     {
         "index": 15,
@@ -262,7 +262,7 @@
     {
         "index": 53,
         "nama": "Rizky Dewi Nur Wahyudi, S.Pd.",
-        "keterangan": "Matematika"
+        "keterangan": "MUTASI KE SMAN 1 PUNCU KEDIRI"
     },
     {
         "index": 54,
@@ -327,7 +327,7 @@
     {
         "index": 66,
         "nama": "Amna Riskya, S.Pd.",
-        "keterangan": "BK"
+        "keterangan": "RESIGN"
     },
     {
         "index": 67,
@@ -342,17 +342,17 @@
     {
         "index": 69,
         "nama": "Virdian Dwi Cahyaningrum S.Pd",
-        "keterangan": "Matematika"
+        "keterangan": "MUTASI KE SMAN 1 KALIDAWIR"
     },
     {
         "index": 70,
         "nama": "Lilik Sulistyorini S.Pd",
-        "keterangan": "Matematika"
+        "keterangan": "MUTASI KE SMAN 1 KARANGREJO"
     },
     {
         "index": 71,
         "nama": "Linda Pebriani, S.Pd.",
-        "keterangan": "Fisika"
+        "keterangan": "MUTASI KE SMAN 1 NGUNUT"
     },
     {
         "index": 72,
@@ -367,7 +367,7 @@
     {
         "index": 74,
         "nama": "Agus Winardi S.E.",
-        "keterangan": "Ekonomi & PKWU"
+        "keterangan": "Ekonomi"
     },
     {
         "index": 75,
@@ -377,12 +377,12 @@
     {
         "index": 76,
         "nama": "Syaikhul Kafi, S.Pd.",
-        "keterangan": "Bahasa Inggris"
+        "keterangan": "Bahasa Inggris & PAI BP"
     },
     {
         "index": 77,
         "nama": "Anik Nurpatimah S.Pd, Gr",
-        "keterangan": "PKWU"
+        "keterangan": "Ekonomi"
     },
     {
         "index": 78,
@@ -397,7 +397,7 @@
     {
         "index": 80,
         "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
-        "keterangan": "Ekonomi"
+        "keterangan": "Ekonomi & PKWU"
     },
     {
         "index": 81,
@@ -408,5 +408,10 @@
         "index": 82,
         "nama": "Riza Albait Bayhaki S.Pd.",
         "keterangan": "Bahasa Inggris"
+    },
+    {
+        "index": 83,
+        "nama": "Bambang Koko Hadi Purwanto, S.Pd.",
+        "keterangan": "Penjasorkes"
     }
 ]

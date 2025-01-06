@@ -173,22 +173,22 @@
         "keterangan": "Bahasa Inggris",
         "kelas": "XI-12",
         "hari": 5,
+        "jam": 1
+    },
+    {
+        "index": 8,
+        "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+        "keterangan": "Bahasa Inggris",
+        "kelas": "XI-12",
+        "hari": 5,
+        "jam": 2
+    },
+    {
+        "index": 8,
+        "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
+        "keterangan": "Bahasa Inggris",
+        "kelas": "XI-12",
+        "hari": 5,
         "jam": 3
-    },
-    {
-        "index": 8,
-        "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
-        "keterangan": "Bahasa Inggris",
-        "kelas": "XI-12",
-        "hari": 5,
-        "jam": 4
-    },
-    {
-        "index": 8,
-        "nama": "Indah Dwi Wahyuni, S.Pd., M.M.",
-        "keterangan": "Bahasa Inggris",
-        "kelas": "XI-12",
-        "hari": 5,
-        "jam": 5
     }
 ]

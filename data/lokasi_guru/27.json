@@ -44,31 +44,7 @@
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
         "kelas": "XI-10",
-        "hari": 1,
-        "jam": 9
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XI-10",
-        "hari": 1,
-        "jam": 10
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XI-10",
-        "hari": 5,
-        "jam": 7
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XI-10",
-        "hari": 5,
+        "hari": 2,
         "jam": 8
     },
     {
@@ -76,8 +52,16 @@
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
         "kelas": "XI-10",
-        "hari": 5,
+        "hari": 2,
         "jam": 9
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XI-10",
+        "hari": 2,
+        "jam": 10
     },
     {
         "index": 27,
@@ -100,14 +84,86 @@
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
         "kelas": "XII-9",
-        "hari": 4,
-        "jam": 4
+        "hari": 5,
+        "jam": 9
     },
     {
         "index": 27,
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
         "kelas": "XII-9",
+        "hari": 5,
+        "jam": 10
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-9",
+        "hari": 5,
+        "jam": 11
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-10",
+        "hari": 2,
+        "jam": 1
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-10",
+        "hari": 2,
+        "jam": 2
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-10",
+        "hari": 3,
+        "jam": 7
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-10",
+        "hari": 3,
+        "jam": 8
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-10",
+        "hari": 3,
+        "jam": 9
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-11",
+        "hari": 2,
+        "jam": 5
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-11",
+        "hari": 2,
+        "jam": 6
+    },
+    {
+        "index": 27,
+        "nama": "Dyah Yulia Niastiti, S.Pd.",
+        "keterangan": "Bahasa Jepang",
+        "kelas": "XII-11",
         "hari": 4,
         "jam": 5
     },
@@ -115,7 +171,7 @@
         "index": 27,
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
-        "kelas": "XII-9",
+        "kelas": "XII-11",
         "hari": 4,
         "jam": 6
     },
@@ -123,81 +179,9 @@
         "index": 27,
         "nama": "Dyah Yulia Niastiti, S.Pd.",
         "keterangan": "Bahasa Jepang",
-        "kelas": "XII-10",
-        "hari": 2,
-        "jam": 1
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-10",
-        "hari": 2,
-        "jam": 2
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-10",
-        "hari": 3,
+        "kelas": "XII-11",
+        "hari": 4,
         "jam": 7
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-10",
-        "hari": 3,
-        "jam": 8
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-10",
-        "hari": 3,
-        "jam": 9
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-11",
-        "hari": 2,
-        "jam": 7
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-11",
-        "hari": 2,
-        "jam": 8
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-11",
-        "hari": 4,
-        "jam": 8
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-11",
-        "hari": 4,
-        "jam": 9
-    },
-    {
-        "index": 27,
-        "nama": "Dyah Yulia Niastiti, S.Pd.",
-        "keterangan": "Bahasa Jepang",
-        "kelas": "XII-11",
-        "hari": 4,
-        "jam": 10
     },
     {
         "index": 27,
@@ -221,7 +205,7 @@
         "keterangan": "Bahasa Jepang",
         "kelas": "XII-12",
         "hari": 4,
-        "jam": 1
+        "jam": 8
     },
     {
         "index": 27,
@@ -229,7 +213,7 @@
         "keterangan": "Bahasa Jepang",
         "kelas": "XII-12",
         "hari": 4,
-        "jam": 2
+        "jam": 9
     },
     {
         "index": 27,
@@ -237,6 +221,6 @@
         "keterangan": "Bahasa Jepang",
         "kelas": "XII-12",
         "hari": 4,
-        "jam": 3
+        "jam": 10
     }
 ]

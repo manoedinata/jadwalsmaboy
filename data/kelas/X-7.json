@@ -25,17 +25,17 @@
             "jam": 3
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-7",
             "hari": 1,
             "jam": 4
         },
         {
-            "index": 77,
-            "nama": "Anik Nurpatimah S.Pd, Gr",
-            "keterangan": "PKWU",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
+            "keterangan": "Ekonomi & PKWU",
             "kelas": "X-7",
             "hari": 1,
             "jam": 5
@@ -73,8 +73,8 @@
             "jam": 9
         },
         {
-            "index": 37,
-            "nama": "Agung Prihartono, S.Pd.",
+            "index": 83,
+            "nama": "Bambang Koko Hadi Purwanto, S.Pd.",
             "keterangan": "Penjasorkes",
             "kelas": "X-7",
             "hari": 1,
@@ -148,7 +148,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-7",
             "hari": 2,
@@ -156,7 +156,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-7",
             "hari": 2,
@@ -165,32 +165,32 @@
     ],
     [
         {
-            "index": 37,
-            "nama": "Agung Prihartono, S.Pd.",
+            "index": 83,
+            "nama": "Bambang Koko Hadi Purwanto, S.Pd.",
             "keterangan": "Penjasorkes",
             "kelas": "X-7",
             "hari": 3,
             "jam": 1
         },
         {
-            "index": 37,
-            "nama": "Agung Prihartono, S.Pd.",
+            "index": 83,
+            "nama": "Bambang Koko Hadi Purwanto, S.Pd.",
             "keterangan": "Penjasorkes",
             "kelas": "X-7",
             "hari": 3,
             "jam": 2
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-7",
             "hari": 3,
             "jam": 3
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-7",
             "hari": 3,
@@ -303,24 +303,24 @@
             "jam": 7
         },
         {
-            "index": 71,
-            "nama": "Linda Pebriani, S.Pd.",
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
             "keterangan": "Fisika",
             "kelas": "X-7",
             "hari": 4,
             "jam": 8
         },
         {
-            "index": 71,
-            "nama": "Linda Pebriani, S.Pd.",
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
             "keterangan": "Fisika",
             "kelas": "X-7",
             "hari": 4,
             "jam": 9
         },
         {
-            "index": 71,
-            "nama": "Linda Pebriani, S.Pd.",
+            "index": 64,
+            "nama": "Arreza Mulya Prasetya, S.Pd.",
             "keterangan": "Fisika",
             "kelas": "X-7",
             "hari": 4,
@@ -345,16 +345,16 @@
             "jam": 2
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-7",
             "hari": 5,
             "jam": 3
         },
         {
-            "index": 69,
-            "nama": "Virdian Dwi Cahyaningrum S.Pd",
+            "index": 73,
+            "nama": "Akbar Trisna Romadhoni S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-7",
             "hari": 5,

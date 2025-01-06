@@ -34,7 +34,7 @@
         },
         {
             "index": 51,
-            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "nama": "Muhammad Galih Atmaja, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "XI-4",
             "hari": 1,
@@ -42,7 +42,7 @@
         },
         {
             "index": 51,
-            "nama": "Muhammad Galih Atmaja, S.Pd. ",
+            "nama": "Muhammad Galih Atmaja, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "XI-4",
             "hari": 1,
@@ -101,7 +101,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XI-4",
             "hari": 2,
             "jam": 3
@@ -109,7 +109,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XI-4",
             "hari": 2,
             "jam": 4
@@ -165,25 +165,25 @@
     ],
     [
         {
-            "index": 5,
-            "nama": "Hj. Heni Sulistiawati, S.Pd.",
-            "keterangan": "Biologi",
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 1
         },
         {
-            "index": 5,
-            "nama": "Hj. Heni Sulistiawati, S.Pd.",
-            "keterangan": "Biologi",
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 2
         },
         {
-            "index": 5,
-            "nama": "Hj. Heni Sulistiawati, S.Pd.",
-            "keterangan": "Biologi",
+            "index": 18,
+            "nama": "Fetri Sukisworo, S.Kom.",
+            "keterangan": "Informatika",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 3
@@ -213,33 +213,33 @@
             "jam": 6
         },
         {
-            "index": 51,
-            "nama": "Muhammad Galih Atmaja, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 7
         },
         {
-            "index": 51,
-            "nama": "Muhammad Galih Atmaja, S.Pd. ",
-            "keterangan": "Matematika",
+            "index": 72,
+            "nama": "Wiga Rafita S.Pd",
+            "keterangan": "Sejarah",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 8
         },
         {
-            "index": 67,
-            "nama": "Ika Lismarina, M.Pd.",
-            "keterangan": "Kimia",
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 9
         },
         {
-            "index": 67,
-            "nama": "Ika Lismarina, M.Pd.",
-            "keterangan": "Kimia",
+            "index": 51,
+            "nama": "Muhammad Galih Atmaja, S.Pd.",
+            "keterangan": "Matematika",
             "kelas": "XI-4",
             "hari": 3,
             "jam": 10
@@ -263,17 +263,17 @@
             "jam": 2
         },
         {
-            "index": 72,
-            "nama": "Wiga Rafita S.Pd",
-            "keterangan": "Sejarah",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
             "kelas": "XI-4",
             "hari": 4,
             "jam": 3
         },
         {
-            "index": 72,
-            "nama": "Wiga Rafita S.Pd",
-            "keterangan": "Sejarah",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
             "kelas": "XI-4",
             "hari": 4,
             "jam": 4
@@ -329,25 +329,25 @@
     ],
     [
         {
-            "index": 18,
-            "nama": "Fetri Sukisworo, S.Kom.",
-            "keterangan": "Informatika",
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 1
         },
         {
-            "index": 18,
-            "nama": "Fetri Sukisworo, S.Kom.",
-            "keterangan": "Informatika",
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 2
         },
         {
-            "index": 18,
-            "nama": "Fetri Sukisworo, S.Kom.",
-            "keterangan": "Informatika",
+            "index": 5,
+            "nama": "Hj. Heni Sulistiawati, S.Pd.",
+            "keterangan": "Biologi",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 3
@@ -355,7 +355,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 4
@@ -363,7 +363,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 5
@@ -371,7 +371,7 @@
         {
             "index": 76,
             "nama": "Syaikhul Kafi, S.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "XI-4",
             "hari": 5,
             "jam": 6

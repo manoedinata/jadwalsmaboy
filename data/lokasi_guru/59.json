@@ -85,7 +85,7 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "XI-9",
         "hari": 5,
-        "jam": 8
+        "jam": 6
     },
     {
         "index": 59,
@@ -93,7 +93,7 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "XI-9",
         "hari": 5,
-        "jam": 9
+        "jam": 7
     },
     {
         "index": 59,
@@ -181,7 +181,7 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "XI-12",
         "hari": 3,
-        "jam": 3
+        "jam": 1
     },
     {
         "index": 59,
@@ -189,6 +189,6 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "XI-12",
         "hari": 3,
-        "jam": 4
+        "jam": 2
     }
 ]

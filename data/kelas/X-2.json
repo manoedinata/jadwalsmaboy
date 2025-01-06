@@ -33,9 +33,9 @@
             "jam": 4
         },
         {
-            "index": 49,
-            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
-            "keterangan": "Penjasorkes",
+            "index": 36,
+            "nama": "Debby Ardhina, S.Ant., M.Pd.",
+            "keterangan": "Sosiologi",
             "kelas": "X-2",
             "hari": 1,
             "jam": 5
@@ -100,7 +100,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-2",
             "hari": 2,
@@ -108,7 +108,7 @@
         },
         {
             "index": 54,
-            "nama": "Andi Ira Septivani, S.Pd. ",
+            "nama": "Andi Ira Septivani, S.Pd.",
             "keterangan": "Pendidikan Pancasila",
             "kelas": "X-2",
             "hari": 2,
@@ -214,7 +214,7 @@
         },
         {
             "index": 52,
-            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "nama": "Nur Widhi Hastuti, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-2",
             "hari": 3,
@@ -222,7 +222,7 @@
         },
         {
             "index": 52,
-            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "nama": "Nur Widhi Hastuti, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-2",
             "hari": 3,
@@ -303,25 +303,25 @@
             "jam": 7
         },
         {
-            "index": 11,
-            "nama": "Mu'arif, S.Pd., M.M.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-2",
             "hari": 4,
             "jam": 8
         },
         {
-            "index": 11,
-            "nama": "Mu'arif, S.Pd., M.M.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-2",
             "hari": 4,
             "jam": 9
         },
         {
-            "index": 11,
-            "nama": "Mu'arif, S.Pd., M.M.Pd.",
-            "keterangan": "Bahasa Inggris",
+            "index": 76,
+            "nama": "Syaikhul Kafi, S.Pd.",
+            "keterangan": "Bahasa Inggris & PAI BP",
             "kelas": "X-2",
             "hari": 4,
             "jam": 10
@@ -330,7 +330,7 @@
     [
         {
             "index": 52,
-            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "nama": "Nur Widhi Hastuti, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-2",
             "hari": 5,
@@ -338,23 +338,23 @@
         },
         {
             "index": 52,
-            "nama": "Nur Widhi Hastuti, S.Pd. ",
+            "nama": "Nur Widhi Hastuti, S.Pd.",
             "keterangan": "Matematika",
             "kelas": "X-2",
             "hari": 5,
             "jam": 2
         },
         {
-            "index": 74,
-            "nama": "Agus Winardi S.E.",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
             "keterangan": "Ekonomi & PKWU",
             "kelas": "X-2",
             "hari": 5,
             "jam": 3
         },
         {
-            "index": 74,
-            "nama": "Agus Winardi S.E.",
+            "index": 80,
+            "nama": "Mardah Utama Olivieyanti S.Pd.,Gr.",
             "keterangan": "Ekonomi & PKWU",
             "kelas": "X-2",
             "hari": 5,
@@ -385,9 +385,9 @@
             "jam": 7
         },
         {
-            "index": 36,
-            "nama": "Debby Ardhina, S.Ant., M.Pd.",
-            "keterangan": "Sosiologi",
+            "index": 49,
+            "nama": "Fisky Robsan Surya Pantara, S.Pd.",
+            "keterangan": "Penjasorkes",
             "kelas": "X-2",
             "hari": 5,
             "jam": 8

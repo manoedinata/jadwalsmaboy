@@ -117,7 +117,7 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "X-10",
         "hari": 4,
-        "jam": 5
+        "jam": 3
     },
     {
         "index": 78,
@@ -125,7 +125,7 @@
         "keterangan": "Bahasa Indonesia",
         "kelas": "X-10",
         "hari": 4,
-        "jam": 6
+        "jam": 4
     },
     {
         "index": 78,
@@ -180,15 +180,15 @@
         "nama": "Rukmini Handayani S.Pd.",
         "keterangan": "Bahasa Indonesia",
         "kelas": "X-12",
-        "hari": 3,
-        "jam": 6
+        "hari": 4,
+        "jam": 5
     },
     {
         "index": 78,
         "nama": "Rukmini Handayani S.Pd.",
         "keterangan": "Bahasa Indonesia",
         "kelas": "X-12",
-        "hari": 3,
-        "jam": 7
+        "hari": 4,
+        "jam": 6
     }
 ]

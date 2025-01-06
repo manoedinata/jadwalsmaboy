@@ -17,17 +17,17 @@
             "jam": 2
         },
         {
-            "index": 14,
-            "nama": "Drs. H. Mulyono Santoso, M.M.",
-            "keterangan": "Kimia",
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
             "kelas": "XII-4",
             "hari": 1,
             "jam": 3
         },
         {
-            "index": 14,
-            "nama": "Drs. H. Mulyono Santoso, M.M.",
-            "keterangan": "Kimia",
+            "index": 20,
+            "nama": "Ratna Suminar, S.Kom. M.Pd.",
+            "keterangan": "Informatika",
             "kelas": "XII-4",
             "hari": 1,
             "jam": 4
@@ -65,17 +65,17 @@
             "jam": 8
         },
         {
-            "index": 20,
-            "nama": "Ratna Suminar, S.Kom. M.Pd.",
-            "keterangan": "Informatika",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
             "kelas": "XII-4",
             "hari": 1,
             "jam": 9
         },
         {
-            "index": 20,
-            "nama": "Ratna Suminar, S.Kom. M.Pd.",
-            "keterangan": "Informatika",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
+            "keterangan": "Kimia",
             "kelas": "XII-4",
             "hari": 1,
             "jam": 10
@@ -279,24 +279,24 @@
             "jam": 4
         },
         {
-            "index": 14,
-            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
             "keterangan": "Kimia",
             "kelas": "XII-4",
             "hari": 4,
             "jam": 5
         },
         {
-            "index": 14,
-            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
             "keterangan": "Kimia",
             "kelas": "XII-4",
             "hari": 4,
             "jam": 6
         },
         {
-            "index": 14,
-            "nama": "Drs. H. Mulyono Santoso, M.M.",
+            "index": 67,
+            "nama": "Ika Lismarina, M.Pd.",
             "keterangan": "Kimia",
             "kelas": "XII-4",
             "hari": 4,
@@ -387,7 +387,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XII-4",
             "hari": 5,
             "jam": 8
@@ -395,7 +395,7 @@
         {
             "index": 56,
             "nama": "Bintari Setyo Ariyandini, S.Pd.",
-            "keterangan": "Bhs. Jawa ",
+            "keterangan": "Bhs. Jawa",
             "kelas": "XII-4",
             "hari": 5,
             "jam": 9
